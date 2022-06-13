@@ -45,7 +45,7 @@ const Blog = ({ posts }) => {
 
 export const getServerSideProps = async (context) => {
   const query = encodeURIComponent(`*[ _type == "post" ]`);
-  const url = `${process.env.SANITY_URL}query=${query}`;
+  const url = `${`https://1pxwynxd.api.sanity.io/v2021-06-07/data/query/production?`}query=${query}`;
 
   const data = await fetch(url).then((res) => res.json());
   const posts = data.result;

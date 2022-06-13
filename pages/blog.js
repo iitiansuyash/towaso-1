@@ -43,7 +43,7 @@ const Blog = ({ posts }) => {
   );
 };
 
-export const getStaticProps = async (context) => {
+export const getServerSideProps = async (context) => {
   const query = encodeURIComponent(`*[ _type == "post" ]`);
   const url = `${process.env.SANITY_URL}query=${query}`;
 

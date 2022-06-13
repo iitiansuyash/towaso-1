@@ -43,26 +43,26 @@ const Blog = ({ posts }) => {
   );
 };
 
-export const getServerSideProps = async (context) => {
+export const getStaticProps = async (context) => {
   const query = encodeURIComponent(`*[ _type == "post" ]`);
   const url = `${process.env.SANITY_URL}query=${query}`;
 
   const data = await fetch(url).then((res) => res.json());
   const posts = data.result;
 
-  if (!posts || !posts.length === 0) {
-    return {
-      props: {
-        posts: [],
-      },
-    };
-  } else {
+  // if (!posts || !posts.length === 0) {
+  //   return {
+  //     props: {
+  //       posts: [],
+  //     },
+  //   };
+  // } else {
     return {
       props: {
         posts,
       },
     };
   }
-};
+  // }
 
 export default Blog;

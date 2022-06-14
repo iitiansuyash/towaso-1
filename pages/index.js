@@ -26,7 +26,7 @@ export default function Home() {
         <div className={typeBox} style={{ filter: "brightness(100%)" }}>
             <TypeWrite />
             <br />
-          <h4>TOWASO - Home Page.</h4>
+          <h4>Join Our Community To Make This World A Better Place.</h4>
         </div>
       </div>
  
@@ -82,7 +82,7 @@ export default function Home() {
     
 
       {/* Blog page redirect button sectionnnn */}
-    <div className={styles.container}>
+    {/* <div className={styles.container}>
       <main className={styles.main}>
         <h1 className={styles.title}>
           Welcome to <br/> the Home Page of ToWaSo
@@ -92,7 +92,8 @@ export default function Home() {
           <Link href="/blog">Go to Blog</Link>
         </p>
       </main>
-    </div>{/* Blog page redirect button sectionnnn */}
+    </div> */}
+    {/* Blog page redirect button sectionnnn */}
 
 
     </>

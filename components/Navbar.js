@@ -45,13 +45,13 @@ const Navbar = () => {
             <div className="logo">
             <Link href="/"><a><Image src="/favicon.ico" width="75" height="60"/></a></Link>
             </div>
-            <div id="mainListDiv" class="main_list">
+            <div id="mainListDiv" className="main_list">
                 <ul className="navlinks">
                     <li style={{textAlign: 'center'}}><Link href="/"><a>Home</a></Link></li>
                     <li style={{textAlign: 'center'}}><Link href="/#services"><a >Services</a></Link></li>
                     <li style={{textAlign: 'center'}}><Link href="/blog"><a>Blogs</a></Link></li>
-                    <li style={{textAlign: 'center'}}><Link href="/#eventContainer"><a>Events</a></Link></li>
-                    <li style={{textAlign: 'center'}}><Link href="/resources"><a>Resources</a></Link></li>
+                    <li style={{textAlign: 'center'}}><Link href="/#team"><a>Team</a></Link></li>
+                    <li style={{textAlign: 'center'}}><Link href="/contact"><a>Contact</a></Link></li>
                 </ul>
             </div>
             <span className="navTrigger">

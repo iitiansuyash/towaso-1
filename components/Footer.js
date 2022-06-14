@@ -4,23 +4,23 @@ import Link from 'next/link';
 
 const Footer = () => {
     return ( 
-			<footer id={styles.primaryFooter}>
+	<footer id={styles.primaryFooter}>
 	<div className={`container ${styles.footerWidgetArea}`}>
 		<div className="row">
 			<div className="col-md-4 p-3">
 				<div className={styles.footerWidgetHeading}>
-					<h4>ASME IIT(ISM) Dhanbad</h4>
+					<h4>ToWaSo</h4>
 				</div>
-				<p>ASME IIT(ISM) Student Section is a college chapter recognized by the American Society of Mechanical Engineers working in the campus of IIT(ISM) Dhanbad.</p>
+				<p>We are providing consultancy for Air, Noise and Water pollution, and IT solutions for Door to Door garbage collection . Further we will extend our services to Life Cycle Assesment.</p>
 			</div>
 			<div className="col-md-4 p-3">
 				<div className={styles.footerWidgetHeading}>
 					
 				<div className={styles.footerSocialIcon}>
                                 <div className={styles.socialTitle}>Follow us</div>
-                                <a href="https://www.facebook.com/asme.iit.ism.ss/"><img src="/fb.webp" className={styles.circleIcon}/></a>
-                                <a href="https://instagram.com/asme.iitism?igshid=YmMyMTA2M2Y"><img src="/ig.webp" className={styles.circleIcon}/></a>
-                                <a href="https://www.linkedin.com/company/asme-iit-ism-student-section/mycompany/"><img src="/li.webp" className={styles.circleIcon}/></a>
+                                <a href="https://www.facebook.com/towasoWM/"><img src="/fb.webp" className={styles.circleIcon}/></a>
+                                <a href="https://www.instagram.com/towasowm/?hl=en"><img src="/ig.webp" className={styles.circleIcon}/></a>
+                                <a href="https://www.linkedin.com/company/towaso/?originalSubdomain=in"><img src="/li.webp" className={styles.circleIcon}/></a>
                             </div>
 				</div>
 				</div>
@@ -42,7 +42,7 @@ const Footer = () => {
 			<div className="row">
 				<div className="col-md-12">
 					<div className={`${styles.copyrightText} text-left`}>
-                            <p>Designed by &copy;ASME Web Development Team {new Date().getFullYear()}</p>
+                            <p>Designed by &copy;ToWaSo {new Date().getFullYear()}</p>
                         </div>
 				</div>
 			</div>

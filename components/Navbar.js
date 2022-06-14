@@ -18,11 +18,11 @@ const Navbar = () => {
             <label for="menu-icon"></label>
             <nav className="nav"> 		
                 <ul className="pt-5">
-                    <li><a href="/">About</a></li>
-                    <li><a href="/blog">Blogs</a></li>
-                    <li><a href="/team">Team</a></li>
-                    <li><a href="#">News</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><Link href="/">About</Link></li>
+                    <li><Link href="/blog">Blogs</Link></li>
+                    <li><Link href="/team">Team</Link></li>
+                    <li><Link href="#">News</Link></li>
+                    <li><Link href="#">Contact</Link></li>
                 </ul>
   	        </nav>
 

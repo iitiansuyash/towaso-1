@@ -11,18 +11,18 @@ const Navbar = () => {
         
     return ( 
         <> 
-        	<Link href="/" className="logo">
-                <Image src="/favicon.ico" width="80px" height="75px" alt=""/>
-            </Link>
+        	<div className="logo">
+            <Link href="/"><a><Image src="/favicon.ico" width="75" height="75"/></a></Link>
+            </div>
             <input className="menu-icon" type="checkbox" id="menu-icon" name="menu-icon"/>
-            <label for="menu-icon"></label>
+            <label htmlFor="menu-icon"></label>
             <nav className="nav"> 		
                 <ul className="pt-5">
-                    <li><Link href="/">About</Link></li>
-                    <li><Link href="/blog">Blogs</Link></li>
-                    <li><Link href="/team">Team</Link></li>
-                    <li><Link href="#">News</Link></li>
-                    <li><Link href="#">Contact</Link></li>
+                    <li><Link href="/"><a>Home</a></Link></li>
+                    <li><Link href="/#services"><a>Services</a></Link></li>
+                    <li><Link href="/blog"><a>Blogs</a></Link></li>
+                    <li><Link href="/team"><a>Team</a></Link></li>
+                    <li><Link href="/#contact"><a>Contact</a></Link></li>
                 </ul>
   	        </nav>
 

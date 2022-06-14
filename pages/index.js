@@ -75,25 +75,68 @@ export default function Home() {
         </section2> */}
     </main>
     
-    
-       
-        
-      
-    
+      {/* ---------------PARALLAX SECTION END---------------- */}
+  
 
-      {/* Blog page redirect button sectionnnn */}
-    {/* <div className={styles.container}>
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <br/> the Home Page of ToWaSo
-        </h1>
 
-        <p className={styles.description}>
-          <Link href="/blog">Go to Blog</Link>
-        </p>
-      </main>
-    </div> */}
-    {/* Blog page redirect button sectionnnn */}
+      {/* ---------------TEAM START---------------- */}
+
+
+      {/*---------------TEAM END---------------- */}
+
+
+
+
+    {/* --------------TESTIMONIALS SECTION START--------------- */}
+
+    {/* <section className="testimonial text-center">
+    <div className="container">
+
+        <div className="heading white-heading">
+            Testimonial
+        </div>
+        <div id="testimonial4" className="carousel slide testimonial4_indicators testimonial4_control_button thumb_scroll_x swipe_x" data-ride="carousel" data-pause="hover" data-interval="5000" data-duration="2000">
+
+            <div className="carousel-inner" role="listbox">
+                <div className="carousel-item active">
+                    <div className="testimonial4_slide">
+                        <img src="https://i.imgur.com/m2O0ykv.jpeg" className="img-circle img-responsive" />
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor risus diam, ac elementum est porta iaculis. Etiam in mi aliquet, ornare ante eu, molestie mi. Pellentesque a aliquet nibh.
+                            In facilisis massa tortor, quis tristique sem malesuada ac. Aliquam convallis lacus </p>
+                        <h4>Ravi Raushan</h4>
+                    </div>
+                </div>
+                <div className="carousel-item">
+                    <div className="testimonial4_slide">
+                        <img src="https://i.imgur.com/k7XVwpB.jpeg" className="img-circle img-responsive" />
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor risus diam, ac elementum est porta iaculis. Etiam in mi aliquet, ornare ante eu, molestie mi.
+                            Pellentesque a aliquet nibh. In facilisis massa tortor, quis tristique sem malesuada ac. Aliquam convallis lacus </p>
+                        <h4>Ramdas Gupta</h4>
+                    </div>
+                </div>
+                <div className="carousel-item">
+                    <div className="testimonial4_slide">
+                        <img src="https://i.imgur.com/BSK7iEv.jpeg" className="img-circle img-responsive" />
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor risus diam, ac elementum est porta iaculis. Etiam in mi aliquet, ornare ante eu, molestie mi. Pellentesque a aliquet nibh.
+                            In facilisis massa tortor, quis tristique sem malesuada ac. Aliquam convallis lacus </p>
+                        <h4>Disha Patani</h4>
+                    </div>
+                </div>
+            </div>
+            <a className="carousel-control-prev" href="#testimonial4" data-slide="prev">
+                <span className="carousel-control-prev-icon"></span>
+            </a>
+            <a className="carousel-control-next" href="#testimonial4" data-slide="next">
+                <span className="carousel-control-next-icon"></span>
+            </a>
+        </div>
+    </div>
+    </section> */}
+  {/* --------------TESTIMONIALS SECTION END--------------- */}
+
+
+  
+
 
 
     </>

@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from "react";
 import imageUrlBuilder from "@sanity/image-url";
 import { sanityClient } from "../sanityClient";
+import styles from '../styles/Blogg.module.css'
+import { bgWrap, typeBox, bgText } from '../styles/Blogg.module.css'
+import Head from "next/head";
 import Image from "next/image";
 
 import PostCard from "../components/PostCard"
@@ -29,8 +32,26 @@ const Blog = ({ posts }) => {
   }, [posts]);
 
   return (
+    <>
+    <Head>
+      <title>ToWaSo-Total Waste Solution</title>
+        <meta
+          name="description"
+          content="Save your surroundings with ToWaSo"
+          />
+          <link rel="icon" href="/favicon.ico"/>
+    </Head>
+    <div>
+        <div className={styles.bgWrap}>
+        </div>
+        <div className={styles.typeBox}>
+                    <h1>Blogs.</h1>
+                    <h4>Join our community to make this world a better place</h4>
+                </div>
+      </div>
+
     <div className="container">
-      <h1 className="my-5">Blog Page</h1>
+      <h1 className="my-5 text-center display-1 ">Recent Blogs</h1>
 
       <div className="row">
         {mappedPosts &&
@@ -40,6 +61,8 @@ const Blog = ({ posts }) => {
             ))}
       </div>
     </div>
+    </>
+    
   );
 };
 

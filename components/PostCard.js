@@ -6,18 +6,18 @@ const PostCard = (props) => {
   const slug = post.slug.current;
 
   return (
-    <div className="col-lg-4">
+    <div className="col-lg-4  mb-4">
       <div className="card">
         {post.mainImage && (
             <img src={post.mainImage} />
         )}
         <div className="card-body">
-          <h5 className="card-title">{post.title}</h5>
-          <p className="card-text">
+          <h5 className="card-title display-5">{post.title}</h5>
+          <p  className="card-text blockquote">
             {post.excerpt}
           </p>
-          <a href={slug} className="btn btn-primary">
-            Read More.
+          <a href={slug} className="btn btn-primary btn-lg">
+            Read More
           </a>
         </div>
       </div>

@@ -19,7 +19,14 @@ const BlogPost = (props) => {
 
 
   return (
-    <div className="container py-5">
+    <>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <div className="container py-5 display-6">
       <nav aria-label="breadcrumb">
         <ol className="breadcrumb">
           <li className="breadcrumb-item">
@@ -31,14 +38,16 @@ const BlogPost = (props) => {
         </ol>
       </nav>
 
-      <div className="post-content-wrap">
-        <h1>{title}</h1>
+      <div className="post-content-wrap display-6">
+        <h1 className="my-5 display-1">{title}</h1>
         {imageUrl && 
         <img className="img-fluid" src={imageUrl} />}
         
         <BlockContent blocks={body} />
       </div>
     </div>
+    </>
+    
   );
 };
 

@@ -11,9 +11,9 @@ const Navbar = () => {
         
     return ( 
         <> 
-        	<a href="/" className="logo">
+        	<Link href="/" className="logo">
                 <Image src="/favicon.ico" width="80px" height="75px" alt=""/>
-            </a>
+            </Link>
             <input className="menu-icon" type="checkbox" id="menu-icon" name="menu-icon"/>
             <label for="menu-icon"></label>
             <nav className="nav"> 		

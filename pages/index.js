@@ -7,8 +7,25 @@ import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap-icons/font/bootstrap-icons.css'
 import TypeWrite from '../components/TypeWrite';
 
+import React, { useState } from 'react';
+
+
+import data from './data';
+
 
 export default function Home() {
+    const [index, setIndex] = useState(0);
+
+  const handleClickPrev = () => {
+    if (index === 0) return setIndex(data.length - 1);
+    setIndex(index - 1);
+  }
+
+  const handleClickNext = () => {
+    if(index === data.length - 1) return setIndex(0);
+    setIndex(index + 1);
+  }
+
   return (
     <>
     <Head>
@@ -271,49 +288,50 @@ export default function Home() {
 
     {/* --------------TESTIMONIALS SECTION START--------------- */}
 
-    {/* <section className="testimonial text-center">
-    <div className="container">
-
-        <div className="heading white-heading">
-            Testimonial
-        </div>
-        <div id="testimonial4" className="carousel slide testimonial4_indicators testimonial4_control_button thumb_scroll_x swipe_x" data-ride="carousel" data-pause="hover" data-interval="5000" data-duration="2000">
-
-            <div className="carousel-inner" role="listbox">
-                <div className="carousel-item active">
-                    <div className="testimonial4_slide">
-                        <img src="https://i.imgur.com/m2O0ykv.jpeg" className="img-circle img-responsive" />
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor risus diam, ac elementum est porta iaculis. Etiam in mi aliquet, ornare ante eu, molestie mi. Pellentesque a aliquet nibh.
-                            In facilisis massa tortor, quis tristique sem malesuada ac. Aliquam convallis lacus </p>
-                        <h4>Ravi Raushan</h4>
-                    </div>
-                </div>
-                <div className="carousel-item">
-                    <div className="testimonial4_slide">
-                        <img src="https://i.imgur.com/k7XVwpB.jpeg" className="img-circle img-responsive" />
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor risus diam, ac elementum est porta iaculis. Etiam in mi aliquet, ornare ante eu, molestie mi.
-                            Pellentesque a aliquet nibh. In facilisis massa tortor, quis tristique sem malesuada ac. Aliquam convallis lacus </p>
-                        <h4>Ramdas Gupta</h4>
-                    </div>
-                </div>
-                <div className="carousel-item">
-                    <div className="testimonial4_slide">
-                        <img src="https://i.imgur.com/BSK7iEv.jpeg" className="img-circle img-responsive" />
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor risus diam, ac elementum est porta iaculis. Etiam in mi aliquet, ornare ante eu, molestie mi. Pellentesque a aliquet nibh.
-                            In facilisis massa tortor, quis tristique sem malesuada ac. Aliquam convallis lacus </p>
-                        <h4>Disha Patani</h4>
-                    </div>
+    
+    <div className={styles.container}>
+        <div className="row justify-content-center">
+        <div className="col-xl-8 col-lg-8 text-center">
+            <div className="section-title">
+                <h4 className="h1"> <strong>Testimonials </strong> </h4>
+                <h2 className="display-1">Testimonials Section</h2>
                 </div>
             </div>
-            <a className="carousel-control-prev" href="#testimonial4" data-slide="prev">
-                <span className="carousel-control-prev-icon"></span>
-            </a>
-            <a className="carousel-control-next" href="#testimonial4" data-slide="next">
-                <span className="carousel-control-next-icon"></span>
-            </a>
         </div>
+      <div className={styles.testimonial_container}>
+        <div className={styles.slider}>
+          <div className={styles.slider_images}>
+            <div className={styles.image_wrapper}>
+              <img src={`/${data[index].picture}`} />
+            </div>
+          </div>
+          <div className={styles.slider_buttons}>
+            <button onClick={() => handleClickPrev()}>
+            <Image src="/icon-prev.svg" width="20px" height="20px"/>
+              {/* <IconPrev /> */}
+            </button>
+            <button onClick={() => handleClickNext()}>
+            <Image src="/icon-next.svg" width="20px" height="20px"/>
+              {/* <IconNext /> */}
+            </button>
+          </div>
+        </div>
+        <div className={styles.testimonial}>
+          <p className={styles.testimonial_content}>
+            “ {`${data[index].testimonial}`} ”
+          </p>
+          <div className={styles.testimonial_author}>
+            <p className={styles.testimonial_author_name}>{`${data[index].name}`}</p>
+            <p className={styles.testimonial_author_job}>{`${data[index].job}`}</p>
+          </div>
+        </div>
+      </div>
     </div>
-    </section> */}
+
+  
+
+
+
   {/* --------------TESTIMONIALS SECTION END--------------- */}
 
   <section className="faq">

@@ -10,7 +10,7 @@ import TypeWrite from '../components/TypeWrite';
 import React, { useState } from 'react';
 
 
-import data from './data';
+import data from '../components/data';
 
 
 export default function Home() {

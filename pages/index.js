@@ -307,11 +307,11 @@ export default function Home() {
           </div>
           <div className={styles.slider_buttons}>
             <button onClick={() => handleClickPrev()}>
-            <Image src="/icon-prev.svg" width="20px" height="20px"/>
+            <Image src="/icon-prev.svg" width="12px" height="32px"/>
               {/* <IconPrev /> */}
             </button>
             <button onClick={() => handleClickNext()}>
-            <Image src="/icon-next.svg" width="20px" height="20px"/>
+            <Image src="/icon-next.svg" width="12px" height="32px"/>
               {/* <IconNext /> */}
             </button>
           </div>

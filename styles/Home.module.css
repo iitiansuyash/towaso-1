@@ -75,7 +75,7 @@
 .container {
     --dark-blue: hsl(240, 38%, 20%);
     --grayish-blue: hsl(240, 18%, 77%);
-    /* --font-family: ; */
+    /* --font-family: T; */
     --font-size: 3.2rem;
     --weight-light: 300;
     --weight-medium: 500;
@@ -160,10 +160,10 @@
     border-bottom-right-radius: 1.6rem;
   }
   
-  .slider_buttons > button > svg {
+  /* .slider_buttons > button > svg {
     width: 1rem;
     height: 1rem;
-  }
+  } */
   
   .testimonial {
     padding-top: 2.5rem;
@@ -245,10 +245,10 @@
       border-bottom-right-radius: 2.8rem;
     }
   
-    .slider_buttons > button > svg {
+    /* .slider_buttons > button > svg {
       width: 1.6rem;
       height: 1.6rem;
-    }
+    } */
   
     .testimonial {
       width: 47%;

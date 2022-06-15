@@ -79,10 +79,192 @@ export default function Home() {
   
 
 
-      {/* ---------------TEAM START---------------- */}
+      {/* ---------------PRODUCTS START---------------- */}
+      
+
+<div className="shell">
+<div className="row justify-content-center">
+    <div className="col-xl-8 col-lg-8 text-center">
+        <div className="section-title">
+            <h4 className="h1"> <strong>Portfolio </strong> </h4>
+            <h2 className="display-1">Products <span>Section</span></h2>
+        </div>
+    </div>
+</div>
+  <div className="container">
+    <div className="row">
+      <div className="col-md-3">
+        <div className="wsk-cp-product">
+          <div className="wsk-cp-img">
+            <img src="https://wallpapers.oceanofwallpapers.com/wallpapers/previews/wallpaper-lmgg9l-964453-Preview.webp" alt="Product" className="img-responsive" />
+          </div>
+          <div className="wsk-cp-text">
+            <div className="category">
+              <span>Ethnic</span>
+            </div>
+            <div className="title-product">
+              <h3>My face not my heart</h3>
+            </div>
+            <div className="description-prod">
+              <p>Description Product tell me how to change playlist height size like 600px in html5 player. player good work now check this link</p>
+            </div>
+            <div className="card-footer">
+              <div className="wcf-left"><span className="price">Rs 500.00</span></div>
+              <div className="wcf-right"><a href="#" className="buy-btn"><i className="bi bi-cart"></i></a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="col-md-3">
+        <div className="wsk-cp-product">
+          <div className="wsk-cp-img"><img src="https://wallpapers.oceanofwallpapers.com/wallpapers/previews/wallpaper-lmgg9l-964453-Preview.webp" alt="Product" className="img-responsive" /></div>
+          <div className="wsk-cp-text">
+            <div className="category">
+              <span>Introvert</span>
+            </div>
+            <div className="title-product">
+              <h3>My face not my heart</h3>
+            </div>
+            <div className="description-prod">
+              <p>Description Product tell me how to change playlist height size like 600px in html5 player. player good work now check this link</p>
+            </div>
+            <div className="card-footer">
+              <div className="wcf-left"><span className="price">Rs 500.00</span></div>
+              <div className="wcf-right"><a href="#" className="buy-btn"><i className="bi bi-cart"></i></a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="col-md-3">
+        <div className="wsk-cp-product">
+          <div className="wsk-cp-img"><img src="https://wallpapers.oceanofwallpapers.com/wallpapers/previews/wallpaper-lmgg9l-964453-Preview.webp" alt="Product" className="img-responsive" /></div>
+          <div className="wsk-cp-text">
+            <div className="category">
+              <span>Beauty</span>
+            </div>
+            <div className="title-product">
+              <h3>My face not my heart</h3>
+            </div>
+            <div className="description-prod">
+              <p>Description Product tell me how to change playlist height size like 600px in html5 player. player good work now check this link</p>
+            </div>
+            <div className="card-footer">
+              <div className="wcf-left"><span className="price">Rs 500.00</span></div>
+              <div className="wcf-right"><a href="#" className="buy-btn"><i className="bi bi-cart"></i></a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="col-md-3">
+        <div className="wsk-cp-product">
+          <div className="wsk-cp-img"><img src="https://wallpapers.oceanofwallpapers.com/wallpapers/previews/wallpaper-lmgg9l-964453-Preview.webp" alt="Product" className="img-responsive" /></div>
+          <div className="wsk-cp-text">
+            <div className="category">
+              <span>Drama</span>
+            </div>
+            <div className="title-product">
+              <h3>My face not my heart cvf ggf gfg g</h3>
+            </div>
+            <div className="description-prod">
+              <p>Description Product tell me how to change playlist height size like 600px in html5 player. player good work now check this link</p>
+            </div>
+            <div className="card-footer">
+              <div className="wcf-left"><span className="price">Rs 500.00</span></div>
+              <div className="wcf-right"><a href="#" className="buy-btn"><i className="bi bi-cart"></i></a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div className="row">
+      <div className="col-md-4">
+        <div className="wsk-cp-product">
+          <div className="wsk-cp-img">
+            <img src="https://wallpapers.oceanofwallpapers.com/wallpapers/previews/wallpaper-lmgg9l-964453-Preview.webp" alt="Product" className="img-responsive" />
+          </div>
+          <div className="wsk-cp-text">
+            <div className="category">
+              <span>Ethnic</span>
+            </div>
+            <div className="title-product">
+              <h3>My face not my heart</h3>
+            </div>
+            <div className="description-prod">
+              <p>Description Product tell me how to change playlist height size like 600px in html5 player. player good work now check this link</p>
+            </div>
+            <div className="card-footer">
+              <div className="wcf-left"><span className="price">Rs 500.00</span></div>
+              <div className="wcf-right"><a href="#" className="buy-btn"><i className="bi bi-cart"></i></a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="col-md-4">
+        <div className="wsk-cp-product">
+          <div className="wsk-cp-img"><img src="https://wallpapers.oceanofwallpapers.com/wallpapers/previews/wallpaper-lmgg9l-964453-Preview.webp" alt="Product" className="img-responsive" /></div>
+          <div className="wsk-cp-text">
+            <div className="category">
+              <span>Introvert</span>
+            </div>
+            <div className="title-product">
+              <h3>My face not my heart</h3>
+            </div>
+            <div className="description-prod">
+              <p>Description Product tell me how to change playlist height size like 600px in html5 player. player good work now check this link</p>
+            </div>
+            <div className="card-footer">
+              <div className="wcf-left"><span className="price">Rs 500.00</span></div>
+              <div className="wcf-right"><a href="#" className="buy-btn"><i className="bi bi-cart"></i></a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="col-md-4">
+        <div className="wsk-cp-product">
+          <div className="wsk-cp-img"><img src="https://wallpapers.oceanofwallpapers.com/wallpapers/previews/wallpaper-lmgg9l-964453-Preview.webp" alt="Product" className="img-responsive" /></div>
+          <div className="wsk-cp-text">
+            <div className="category">
+              <span>Beauty</span>
+            </div>
+            <div className="title-product">
+              <h3>My face not my heart</h3>
+            </div>
+            <div className="description-prod">
+              <p>Description Product tell me how to change playlist height size like 600px in html5 player. player good work now check this link</p>
+            </div>
+            <div className="card-footer">
+              <div className="wcf-left"><span className="price">Rs 500.00</span></div>
+              <div className="wcf-right"><a href="#" className="buy-btn"><i className="bi bi-cart"></i></a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* <div className="col-md-4 offset-md-7">
+        <div className="wsk-cp-product">
+          <div className="wsk-cp-img"><img src="https://3.bp.blogspot.com/-iUes8qr4uC8/WVSvl6Wf_fI/AAAAAAAAAKs/JiTUUVvdbqEC_QGGaQhuVJiezIN3LIqEgCPcBGAYYCw/s1600/IMG_5367-bp.jpg" alt="Product" className="img-responsive" /></div>
+          <div className="wsk-cp-text">
+            <div className="category">
+              <span>Drama</span>
+            </div>
+            <div className="title-product">
+              <h3>My face not my heart cvf ggf gfg g</h3>
+            </div>
+            <div className="description-prod">
+              <p>Description Product tell me how to change playlist height size like 600px in html5 player. player good work now check this link</p>
+            </div>
+            <div className="card-footer">
+              <div className="wcf-left"><span className="price">Rs 500.00</span></div>
+              <div className="wcf-right"><a href="#" className="buy-btn"><i className="bi bi-cart"></i></a></div>
+            </div>
+          </div>
+        </div>
+      </div> */}
+    </div>
+  </div>
+</div>
 
 
-      {/*---------------TEAM END---------------- */}
+      {/*---------------PRODUCTS END---------------- */}
 
 
 
@@ -140,7 +322,7 @@ export default function Home() {
                 <div className="col-xl-8 col-lg-8 text-center">
                     <div className="section-title">
                         <h4>FAQ's</h4>
-                        <h2>Frequently Asked <span>Question’s</span></h2>
+                        <h2>Frequently Asked <span>Questions</span></h2>
                     </div>
                 </div>
             </div>

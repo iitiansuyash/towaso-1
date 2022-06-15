@@ -11,20 +11,20 @@ const Navbar = () => {
         
     return ( 
         <> 
+        <header className="header">
         	<div className="logo">
             <Link href="/"><a><Image src="/favicon.ico" width="75" height="75"/></a></Link>
             </div>
-            <input className="menu-icon" type="checkbox" id="menu-icon" name="menu-icon"/>
-            <label htmlFor="menu-icon"></label>
-            <nav className="nav"> 		
-                <ul className="pt-5">
+            <input className="menu-btn" type="checkbox" id="menu-btn"/>
+            <label className="menu-icon" htmlFor="menu-btn"><span className="navicon"></span></label>		
+                <ul className="menu">
                     <li><Link href="/"><a>Home</a></Link></li>
                     <li><Link href="/#services"><a>Services</a></Link></li>
                     <li><Link href="/blog"><a>Blogs</a></Link></li>
                     <li><Link href="/team"><a>Team</a></Link></li>
                     <li><Link href="/#contact"><a>Contact</a></Link></li>
                 </ul>
-  	        </nav>
+            </header>
 
 
     

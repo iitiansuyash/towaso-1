@@ -9,7 +9,7 @@ const TypeWrite = () => {
         <p>Be Green</p>
         <p>Be A Recycling Machine</p>
         <p>Think Before You Trash It</p>
-        <p>Don't Be A Punk! Recycle Yout Junk</p>
+        <p>Don't Be A Punk! Recycle Your Junk</p>
       </div>
     </div>
      );

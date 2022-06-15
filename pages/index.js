@@ -140,7 +140,7 @@ export default function Home() {
                 <div className="col-xl-8 col-lg-8 text-center">
                     <div className="section-title">
                         <h4>FAQ's</h4>
-                        <h2>Frequently Asking <span>Question’s</span></h2>
+                        <h2>Frequently Asked <span>Question’s</span></h2>
                     </div>
                 </div>
             </div>

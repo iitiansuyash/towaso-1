@@ -134,8 +134,82 @@ export default function Home() {
     </section> */}
   {/* --------------TESTIMONIALS SECTION END--------------- */}
 
+  <section className="faq">
+        <div className="container">
+            <div className="row justify-content-center">
+                <div className="col-xl-8 col-lg-8 text-center">
+                    <div className="section-title">
+                        <h4>FAQ's</h4>
+                        <h2>Frequently Asking <span>Question’s</span></h2>
+                    </div>
+                </div>
+            </div>
+    
+            <div className="row">
+                <div className="col-xl-12 col-lg-12">
+                    <div className="accordion" id="accordionExample">
+                        <div className="row">
+                            <div className="col-xl-6 col-lg-6">
+                            <main2>
+                                <details open>
+                                    <summary>What Is Web Design?</summary>
+                                    <div className="faq__content">
+                                    <p>Web design encompasses many different skills and disciplines in the production and maintenance of websites.</p>
+                                    </div>
+                                </details>
 
-  
+                                    <details>
+                                    <summary>What Is Graphic Design?</summary>
+                                    <div className="faq__content">
+                                    <p>Graphic design is the process of visual communication and problem-solving through the use of typography, photography, iconography and illustration. </p>
+                                    </div>
+                                </details>
+                                <details>
+                                    <summary>What Is JavaScript?</summary>
+                                    <div className="faq__content">
+                                    <p>JavaScript, often abbreviated as JS, is a programming language that conforms to the ECMAScript specification. </p>
+                                    </div>
+                                </details>
+                                </main2>
+    
+                                </div> 
+    
+                            <div className="col-xl-6 col-lg-6">
+                            <main2>
+                                <details open>
+                                    <summary>What Is Web Design?</summary>
+                                    <div className="faq__content">
+                                    <p>Web design encompasses many different skills and disciplines in the production and maintenance of websites.</p>
+                                    </div>
+                                </details>
+
+                                    <details>
+                                    <summary>What Is Graphic Design?</summary>
+                                    <div className="faq__content">
+                                    <p>Graphic design is the process of visual communication and problem-solving through the use of typography, photography, iconography and illustration. </p>
+                                    </div>
+                                </details>
+                                <details>
+                                    <summary>What Is JavaScript?</summary>
+                                    <div className="faq__content">
+                                    <p>JavaScript, often abbreviated as JS, is a programming language that conforms to the ECMAScript specification. </p>
+                                    </div>
+                                </details>
+                                </main2>
+    
+                                
+    
+                            </div>
+    
+                        </div>
+    
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+        
+    </section>
 
 
 

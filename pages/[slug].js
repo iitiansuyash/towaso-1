@@ -26,6 +26,9 @@ const BlogPost = (props) => {
     <br/>
     <br/>
     <br/>
+    <br/>
+    <br/>
+    <br/>
     <div className="container py-5 display-6">
       <nav aria-label="breadcrumb">
         <ol className="breadcrumb">

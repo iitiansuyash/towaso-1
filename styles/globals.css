@@ -200,7 +200,7 @@ body {
   }
   .nav ul li a:hover{
     text-decoration: none;
-    color: #80a193;
+    color: #58666f5c;
   }
   .nav ul li a:after{
     display: block;
@@ -846,7 +846,7 @@ main {
   height: 50vh;
   overflow-x: hidden;
   overflow-y: scroll;
-  perspective: 2px;
+  /* perspective: 2px; */
 }
 .mainParallax::-webkit-scrollbar {
   display: none;
@@ -1357,7 +1357,7 @@ section2 h1 {
 
 /*------------------------Contact us----------------------------*/
 .contact {
-    padding: 130px 0;
+    padding: 50px 0;
 }
 
 .contact .heading h2 {
@@ -1373,6 +1373,7 @@ section2 h1 {
 } */
 
 .contact .heading p {
+    text-align: center;
     font-size: 15px;
     font-weight: 400;
     line-height: 1.7;
@@ -1436,3 +1437,66 @@ button.btn:hover{
     font-weight: 300;
     color: #999999;
 }
+
+
+
+
+/*-------------------------FAQ----------------------------*/
+
+
+.faq {
+    padding: 60px 0 50px;
+    background: #f7fbff;
+    min-height: 80vh;
+  }
+  
+  .faq .section-title h4 {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .faq .section-title h2 {
+    font-size: 50px;
+    margin-bottom: 40px;
+  }
+  
+  main2 {
+    max-width: 520px;
+    margin: 0 auto;
+  }
+  summary {
+    font-size: 1.25rem;
+    font-weight: 600;
+    background-color: #fafafa;
+    background-image: radial-gradient(circle at 40% 91%, rgba(251, 251, 251,0.04) 0%, rgba(251, 251, 251,0.04) 50%,rgba(229, 229, 229,0.04) 50%, rgba(229, 229, 229,0.04) 100%),radial-gradient(circle at 66% 97%, rgba(36, 36, 36,0.04) 0%, rgba(36, 36, 36,0.04) 50%,rgba(46, 46, 46,0.04) 50%, rgba(46, 46, 46,0.04) 100%),radial-gradient(circle at 86% 7%, rgba(40, 40, 40,0.04) 0%, rgba(40, 40, 40,0.04) 50%,rgba(200, 200, 200,0.04) 50%, rgba(200, 200, 200,0.04) 100%),radial-gradient(circle at 15% 16%, rgba(99, 99, 99,0.04) 0%, rgba(99, 99, 99,0.04) 50%,rgba(45, 45, 45,0.04) 50%, rgba(45, 45, 45,0.04) 100%),radial-gradient(circle at 75% 99%, rgba(243, 243, 243,0.04) 0%, rgba(243, 243, 243,0.04) 50%,rgba(37, 37, 37,0.04) 50%, rgba(37, 37, 37,0.04) 100%),linear-gradient(90deg, rgb(34, 222, 237),rgb(135, 89, 215));
+    color: #fff;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    outline: none;
+    border-radius: 0.25rem;
+    text-align: left;
+    cursor: pointer;
+    position: relative;
+  }
+  p { text-align: left; }
+  details[open] summary ~ * {
+    animation: sweep .5s ease-in-out;
+  }
+  @keyframes sweep {
+    0%    {opacity: 0; margin-top: -10px}
+    100%  {opacity: 1; margin-top: 0px}
+  }
+  details > summary::after {
+    position: absolute;
+    content: "+";
+    right: 20px;
+  }
+  details[open] > summary::after {
+    position: absolute;
+    content: "-";
+    right: 20px;
+  }
+  details > summary::-webkit-details-marker {
+    display: none;
+  }
+  

@@ -151,7 +151,7 @@ const [mappedPosts, setMappedPosts] = useState([]);
       </div>
       <div className="text-center">
         <a href="blog/">
-          <button2 type="button"  className="btn btn-outline-primary btn-lg btn-block" style={{width: "15%"}} > <strong>More Blogs.</strong> </button2>
+          <button type="button"  className="fill"> <strong>More Blogs.</strong> </button>
         </a> 
       </div>
       

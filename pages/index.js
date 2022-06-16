@@ -7,13 +7,16 @@ import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap-icons/font/bootstrap-icons.css'
 import TypeWrite from '../components/TypeWrite';
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from "react";
+import imageUrlBuilder from "@sanity/image-url";
+import { sanityClient } from "../sanityClient";
+import PostCard from "../components/PostCard"
 
 
 import data from '../components/data';
 
 
-export default function Home() {
+export default function Home({ posts }) {
     const [index, setIndex] = useState(0);
 
   const handleClickPrev = () => {
@@ -25,6 +28,41 @@ export default function Home() {
     if(index === data.length - 1) return setIndex(0);
     setIndex(index + 1);
   }
+
+
+//Blogs js
+const [mappedPosts, setMappedPosts] = useState([]);
+
+  useEffect(() => {
+    if (posts.length) {
+      const imageBuilder = imageUrlBuilder(sanityClient);
+
+      setMappedPosts(
+        posts.map((post) => {
+          return {
+            ...post,
+            mainImage: imageBuilder
+              .image(post.mainImage)
+              .width(600)
+              .height(300),
+          };
+        })
+      );
+    } else {
+      setMappedPosts([]);
+    }
+  }, [posts]);
+
+
+
+
+
+
+
+
+
+
+
 
   return (
     <>
@@ -94,6 +132,41 @@ export default function Home() {
     
       {/* ---------------PARALLAX SECTION END---------------- */}
   
+
+{/*============ BLOGSS ===================*/}
+<br/>
+<br/>
+<div className="container">
+<div className="section-title text-center">
+            <h4 className="h1"> <strong>Blogs </strong> </h4>
+            <h2 className="display-1">Recent <span>Blogs</span></h2>
+        </div>
+        <br/>
+      <div className="row">
+        {mappedPosts &&
+          mappedPosts.length &&
+          mappedPosts.map((post, index) => (
+            <PostCard data={post} key={index} />
+            ))}
+      </div>
+      <div className="text-center">
+        <a href="blog/">
+          <button2 type="button"  className="btn btn-outline-primary btn-lg btn-block" style={{width: "15%"}} > <strong>More Blogs.</strong> </button2>
+        </a> 
+      </div>
+      
+    </div>
+
+<br/>
+<br/>
+{/*============ BLOGSS END ===================*/}
+
+
+
+
+
+
+
 
 
       {/* ---------------PRODUCTS START---------------- */}
@@ -408,6 +481,8 @@ export default function Home() {
                 </div>
             </div>
         </div>
+
+        {/* <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fasme.iit.ism.ss&tabs=timeline&width=900&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="900" height="400" style={{ border: 'none', overflow: 'hidden' }} scrolling="no" frameBorder="0" allowFullScreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe> */}
         
     </section>
 
@@ -416,3 +491,25 @@ export default function Home() {
     </>
   )
 }
+
+export const getServerSideProps = async (context) => {
+  const query = encodeURIComponent(`*[ _type == "post" ][0...3]`);
+  const url = `${`https://1pxwynxd.api.sanity.io/v2021-06-07/data/query/production?`}query=${query}`;
+
+  const data = await fetch(url).then((res) => res.json());
+  const posts = data.result;
+
+  // if (!posts || !posts.length === 0) {
+  //   return {
+  //     props: {
+  //       posts: [],
+  //     },
+  //   };
+  // } else {
+    return {
+      props: {
+        posts,
+      },
+    };
+  }
+  // }

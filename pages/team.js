@@ -1,11 +1,30 @@
-import styles from '../styles/Footer.module.css'
+// import styles from '../styles/Footer.module.css'
+import styles from '../styles/Team.module.css'
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import Link from 'next/link';
+import Head from 'next/head';
 
 const Team = () => {
     return ( 
         <>
-            <section className="speakers-section">
+        <Head>
+            <title>ToWaSo-Total Waste Solution</title>
+                <meta
+                name="description"
+                content="Save your surroundings with ToWaSo"
+                />
+                <link rel="icon" href="/favicon.ico"/>
+            </Head>
+            <div>
+                <div className={styles.bgWrap}>
+                </div>
+                <div className={styles.typeBox}>
+                            <h1>Team Members.</h1>
+                            <h4>Join our community to make this world a better place</h4>
+                        </div>
+            </div>
+
+        <section className="speakers-section">
         <div className="parallax-scene parallax-scene-2 anim-icons">
             <span data-depth="0.40" className="parallax-layer icon icon-circle-5"></span>
             <span data-depth="0.99" className="parallax-layer icon icon-circle-5"></span>
@@ -13,8 +32,8 @@ const Team = () => {
 
         <div className="container">
             <div className="sec-title light text-center">
-                <span className="title">Team</span>
-                <h2>Our Team</h2>
+                <h2 className="display-1 ">Team</h2>
+                {/* <h2 className="display-1">Our Team</h2> */}
             </div>
 
             <div className="row">

@@ -325,7 +325,7 @@ body {
     --color-brand-primary-h: 251;
     --color-brand-primary-s: 43%;
     --color-brand-primary-l: 43%;
-    --color-brand-accent: hsl(var(--color-brand-accent-h), 96%, 61%);
+    --color-brand-accent: hsl(var(--color-brand-accent-h), 85%, 60%);
     --color-brand-accent-h: 16;
     --color-brand-accent-s: 96%;
     --color-brand-accent-l: 61%;

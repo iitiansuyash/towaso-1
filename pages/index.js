@@ -85,7 +85,7 @@ export default function Home() {
             <h1>Fun fact:</h1>
         </section2> */}
         <section2 className="parallax bg">
-            <h1>The sound that occurs when you snap your fingers is made by your middle finger hitting your palm!</h1>
+            <h1>If it can’t be reduced, reused, repaired, rebuilt, refurbished, refinished, resold, recycled, or composted, then it should be restricted, designed or removed from production.</h1>
         </section2>
         {/* <section2 className="no-parallax">
             <h1>Have a nice day!</h1>
@@ -339,8 +339,8 @@ export default function Home() {
             <div className="row justify-content-center">
                 <div className="col-xl-8 col-lg-8 text-center">
                     <div className="section-title">
-                        <h4>FAQ's</h4>
-                        <h2>Frequently Asked <span>Questions</span></h2>
+                        <h4><strong>FAQ's</strong></h4>
+                        <h2 className="display-1">Frequently Asked <span>Questions</span></h2>
                     </div>
                 </div>
             </div>

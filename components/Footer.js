@@ -3,6 +3,22 @@ import 'bootstrap/dist/css/bootstrap.css';
 import Link from 'next/link';
 
 const Footer = () => {
+    async function handleOnSubmit(e){
+        e.preventDefault();
+        const formData ={}
+        Array.from(e.currentTarget.elements).forEach(field =>{
+            if (!field.name) return;
+            formData[field.name] = field.value;
+        });
+        fetch('/api/mail', {
+            method: 'post',
+            body: JSON.stringify(formData),
+        })
+        console.log(formData);
+    }
+
+
+
     return ( 
 
 	<>
@@ -46,20 +62,20 @@ const Footer = () => {
 
                 <div className="col-md-7">
 
-                    <form>
+                    <form method="post" onSubmit={handleOnSubmit}>
                         <div className="row">
                             <div className="col-sm-6">
-                                <input type="text" className="form-control" placeholder="Name"/>
+                                <input type="text" name="You've got a new mail from" className="form-control" placeholder="Name"/>
                             </div>
                             <div className="col-sm-6">
-                                <input type="email" className="form-control" placeholder="Email"/>
+                                <input type="email" name="Email Id" className="form-control" placeholder="Email"/>
                             </div>
                             <div className="col-sm-12">
                                 <input type="text" className="form-control" placeholder="Subject"/>
                             </div>
                         </div>
                         <div className="form-group">
-                            <textarea className="form-control" rows="5" id="comment" placeholder="Message"></textarea>
+                            <textarea name="message" className="form-control" rows="5" id="comment" placeholder="Message"></textarea>
                         </div>
                         <button className="btn btn-block" type="submit">Send Now!</button>
                     </form>

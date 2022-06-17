@@ -149,16 +149,19 @@ body {
   @media (min-width: 48em) {
     .header li {
       float: left;
+      
     }
     .header li a {
       padding: 25px 30px;
       font-size: 35px;
       border: rgb(35, 35, 35);
+      z-index: 999;
     }
     .header .menu {
       clear: none;
       float: right;
       max-height: none;
+      
     }
     .header .menu-icon {
       display: none;

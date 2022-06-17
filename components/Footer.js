@@ -1,21 +1,26 @@
 import styles from '../styles/Footer.module.css'
 import 'bootstrap/dist/css/bootstrap.css';
 import Link from 'next/link';
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
 const Footer = () => {
-    async function handleOnSubmit(e){
-        e.preventDefault();
-        const formData ={}
-        Array.from(e.currentTarget.elements).forEach(field =>{
-            if (!field.name) return;
-            formData[field.name] = field.value;
-        });
-        fetch('/api/mail', {
-            method: 'post',
-            body: JSON.stringify(formData),
-        })
-        console.log(formData);
-    }
+    const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_v6ie5cf', 'template_jcy1dih', form.current, 'dSpz4RrPplRfoV7B2')
+      .then((result) => {
+          console.log(result.text);
+          alert('Thankyou! Your Message has been delivered.');
+      }, (error) => {
+          console.log(error.text);
+        alert('Sorry! Your Message could not be delivered. pl. mail your message to {Email}');
+      });
+      e.target.reset();
+
+  };
 
 
 
@@ -62,20 +67,20 @@ const Footer = () => {
 
                 <div className="col-md-7">
 
-                    <form method="post" onSubmit={handleOnSubmit}>
+                    <form ref={form} onSubmit={sendEmail}>
                         <div className="row">
                             <div className="col-sm-6">
-                                <input type="text" name="You've got a new mail from" className="form-control" placeholder="Name"/>
+                                <input type="text" name="name" className="form-control" placeholder="Name" required/>
                             </div>
                             <div className="col-sm-6">
-                                <input type="email" name="Email Id" className="form-control" placeholder="Email"/>
+                                <input type="email" name="email" className="form-control" placeholder="Email" required/>
                             </div>
                             <div className="col-sm-12">
-                                <input type="text" className="form-control" placeholder="Subject"/>
+                                <input type="text" name="subject" className="form-control" placeholder="Subject" required/>
                             </div>
                         </div>
                         <div className="form-group">
-                            <textarea name="message" className="form-control" rows="5" id="comment" placeholder="Message"></textarea>
+                            <textarea name="message" className="form-control" rows="5" id="comment" placeholder="Message" required></textarea>
                         </div>
                         <button className="btn btn-block" type="submit">Send Now!</button>
                     </form>

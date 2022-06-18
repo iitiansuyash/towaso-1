@@ -5,7 +5,7 @@ const TypeWrite = () => {
       <div className={styles.rwWrapper}>
       <div className={`${styles.rwWords} ${styles.rwWords1}`}>
         <p>Welcome To ToWaSo</p>
-        <p>Be Clean</p>
+        <p>Utilisation of resources before it gets wasted</p>
         <p>Be Green</p>
         <p>Be A Recycling Machine</p>
         <p>Think Before You Trash It</p>

@@ -200,7 +200,7 @@ const [mappedPosts, setMappedPosts] = useState([]);
             </div>
             <div className="card-footer">
               <div className="wcf-left"><span className="price">Rs 500.00</span></div>
-              <div className="wcf-right"><a href="#" className="buy-btn"><i className="bi bi-cart"></i></a></div>
+              <div className="wcf-right"><a href="https://www.amazon.in/dp/B082KR95Z4?ref_=cm_sw_r_cp_ud_dp_5P294KB1D1H06DYFB5H4" className="buy-btn"><i className="bi bi-cart"></i></a></div>
             </div>
           </div>
         </div>

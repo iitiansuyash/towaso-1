@@ -32,14 +32,19 @@ const Footer = () => {
             <div className="heading text-center">
                 <h2>Contact
                     <span> Us </span></h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    <br/>incididunt ut labore et dolore magna aliqua.</p>
+                <p>
+                A Pioneer Institute in waste manage Institute. <br/>
+                “Manage Your Waste Mindfully with TowaSo”  
+                </p>
             </div>
             <div className="row">
                 <div className="col-md-5">
                     <div className="title">
                         <h3>Contact detail</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
+                        <p>
+                                TOWASO PRIVATE LIMITED <br/>
+                                CIN: U74999BR2016PTC032352<br/>
+                        </p>
                     </div>
                     <div className="content">
                        
@@ -47,20 +52,25 @@ const Footer = () => {
                             <i className="fas fa-mobile-alt"></i>
                             <h4 className="d-inline-block">PHONE :
                                 <br/>
-                                <span>+12457836913 , +12457836913</span></h4>
+                                <span>+91 8210875783</span></h4>
                         </div>
                         
                         <div className="info">
                             <i className="far fa-envelope"></i>
                             <h4 className="d-inline-block">EMAIL :
                                 <br/>
-                                <span>example@info.com</span></h4>
+                                <span>@towaso.com</span></h4>
                         </div>
                         
                         <div className="info">
                             <i className="fas fa-map-marker-alt"></i>
                             <h4 className="d-inline-block">ADDRESS :<br/>
-                                <span>6743 last street , Abcd, Xyz</span></h4>
+                                <span>
+                                2E/8, Nirmal Nagar 
+                                Near New Court Campus <br/>
+                                Sakchi, Jamshedpur, Jharkhand<br/>
+                                PO 831001, INDIA    
+                                </span></h4>
                         </div>
                     </div>
                 </div>

@@ -19,7 +19,7 @@ const Navbar = () => {
             <label className="menu-icon" htmlFor="menu-btn"><span className="navicon"></span></label>		
                 <ul className="menu">
                     <li><Link href="/"><a>Home</a></Link></li>
-                    <li><Link href="/#services"><a>Services</a></Link></li>
+                    <li><Link href="/about"><a>About</a></Link></li>
                     <li><Link href="/blog"><a>Blogs</a></Link></li>
                     <li><Link href="/team"><a>Team</a></Link></li>
                     <li><Link href="/#contact"><a>Contact</a></Link></li>

@@ -64,7 +64,7 @@ body {
     display: block;
     float: left;
     font-size: 2em;
-    padding: 10px 20px;
+    /* padding: 10px 20px; */
     text-decoration: none;
   }
   
@@ -152,8 +152,8 @@ body {
       
     }
     .header li a {
-      padding: 25px 30px;
-      font-size: 35px;
+      padding: 20px 30px;
+      font-size: 28px;
       border: rgb(35, 35, 35);
       z-index: 999;
     }
@@ -166,8 +166,21 @@ body {
     .header .menu-icon {
       display: none;
     }
+    
   }
-  
+
+  /* @media screen {
+    
+  } */
+  @media only screen and (max-width: 600px) {
+    .header li{
+      height: 50%;
+    }
+    .header .logo{
+      padding: 25px 20px;
+      width: 35%;
+    }
+  }
   
   
   
@@ -1710,3 +1723,35 @@ button.btn:hover{
     display: none;
   }
   
+
+
+  /*-------------------------About US----------------------------*/
+  #harambe-face {
+    border-color: #212121;
+    border-width: 25px;
+    border-style: solid;
+    border-radius: 50%;
+    max-width: 125px;
+  }
+  
+  
+  
+  
+  @media (max-width: 700px) {
+    #harambe-face {
+      /*     display:none; */
+      margin: auto;
+      margin-bottom: 5%;
+    }
+  
+  }
+  
+  @media (min-width: 700px) and (max-width: 1100px) {
+    
+    #harambe-face {
+      margin: auto;
+      margin-bottom: 5%;
+    }
+  }
+  
+

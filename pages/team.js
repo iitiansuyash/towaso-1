@@ -81,7 +81,7 @@ const Team = () => {
               <div className="speaker-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp">
                     <div className="inner-box">
                         <div className="image-box">
-                            <figure className="image"><img src="https://i.ibb.co/JC4skS0/team-animate.jpg" alt=""/>
+                            <figure className="image"><img src="https://i.imgur.com/xLQa2gO.jpeg" style={{height:440}} alt=""/>
                                 <div className="social-links">
                                     <ul>
                                         
@@ -123,7 +123,7 @@ const Team = () => {
               <div className="speaker-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp">
                     <div className="inner-box">
                         <div className="image-box">
-                            <figure className="image"><img src="https://lh6.googleusercontent.com/D-o_NtDKd8-j26-tr2CsmDQv2mdQqeBOL84jpN3l7Gj2TMnLanFeGGsOnwzPze-pW37CB_CwGeCPPBKiRxo8=w1960-h3484-rw" style={{height:440}}  alt=""/>
+                            <figure className="image"><img src="https://i.imgur.com/qALUivO.jpeg" style={{height:440}}  alt=""/>
                                 <div className="social-links">
                                     <ul>
                                         

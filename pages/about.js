@@ -59,8 +59,7 @@ const About = () => {
                         <ul>
                             {/* <li>1. <strong>Harambe was born and raised in captivity.</strong> Animals raised their whole life by humans tend to be more calm. It's true that they will retain some of their wild behaviors even if they are raised this way, but...</li> */}
                             <li>1. <strong>Successfully Cleared GVP of more than 50 years.</strong>  </li>
-                            <li>2. <strong>The Eco- </strong>brick initiative helps in reducing single use plastic.
-                            </li>
+                            <li>2. <strong>The Eco - brick initiative helps in reducing single use plastic.</strong></li>
                             <li>3. <strong>Our Dont mix campaigns helped ULBs achieving the segregation 2 times easier and faster.</strong>  </li>
                             <li>4. <strong>The waste management services helped the ULBs to achieve various recognition and certificates on  State and National level.</strong> </li>
                             <li>5. <strong>The natural and easy to apply innovative ideas help in reducing water pollution.</strong></li>

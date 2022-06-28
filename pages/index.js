@@ -90,28 +90,28 @@ const [mappedPosts, setMappedPosts] = useState([]);
       <h2 className="c-section__title"><span>Our Services</span></h2>
         <ul className="c-services">
               <li className="c-services__item">
-                  <h3>Responsive Web Design</h3>
-                  <p>We leverage the concept of mobile-first design. Through our work, we focus on designing an experience that works across different screen sizes.</p>
+                  <h3>Waste management </h3>
+                  <p>The very process or a series of processes to address the problem of waste and its management in a positive manner  can be termed as waste management. The heaps of waste produced everyday very specifically highlight the importance to manage waste efficiently such that it creates future usage as well as does not harm the nature. We are committed  segregation, compaction of waste and transportation of waste with optimized route.</p>
               </li>
               <li className="c-services__item">
-                  <h3>UX Auditing</h3>
-                  <p>If you are unsure of how your app behaves, we can help by doing a detailed UX audit that will highlight most of the issues in your product. From there, we can take it further and fix all issues.</p>
+                  <h3>Reduce Reuse Recycle</h3>
+                  <p>The three R's - reduce, reuse and recycle – all help to cut down on the amount of waste we throw away. They conserve natural resources, landfill space and energy. Plus, the three R’s save land and money that communities must use to dispose of waste in landfills. </p>
               </li>
               <li className="c-services__item">
-                  <h3>Front End Development</h3>
-                  <p>We are Front End masters with a deep focus on HTML, CSS. The result of our work is a responsive, accessible, and performant websites. Either you have the design ready and want us to code it, or you want us to do both design and code, we&rsquo;re happy to do so.</p>
+                  <h3>Consultancy related to air, water and noise pollution</h3>
+                  <p>Over time, with drastic rise in pollution in spheres of human life, the need to address the issues on a mass scale is seen. Not only today consultancy and education is required but it is also seen that the population must be provided information and equipments catering to the certain level of pollution they face everyday in their lives.We are providing consultancy for Air, Noise and Water pollution .</p>
               </li>
               <li className="c-services__item">
-                  <h3>UX Consultation</h3>
-                  <p>If you don&rsquo;t know what kind of service to request from us, don&rsquo;t worry. We can help and see what fits your business and your budget.</p>
+                  <h3>Biogas</h3>
+                  <p>The anaerobic breakdown of animal waste and plant scraps by certain species of microorganisms produces a renewable and a clean source of energy ,in a compost or a man made setting,  termed as biogas.When biomass decomposes naturally, or at industrial scale in an anaerobic digester, biogas is produced.We install and help you operate the Bio-Gas plant that is easy to understand and operate in Urban Areas as well.</p>
               </li>
               <li className="c-services__item">
-                  <h3>Mobile Apps Design</h3>
-                  <p>To reach more customers and the goals of your business, a mobile application is necessary these days. We will work on the app design from scratch to final tested prototype.</p>
+                  <h3>IT solutions for door to door garbage collectors</h3>
+                  <p>Various countries and provinces have seen the grow of automatic garbage collectors with the enhancement of GPS and garbage locators centrally connected to the main branch via internet or intranet to facilitate smooth operations. IT in this sector can help stakeholders know whether the garbage collectors are full or after how long the garbage vehicle will reach the place. Connection will only expand the cleaning services as well as improve flexibility and efficiency. We are providing IT solutions for Door to Door garbage collection .</p>
               </li>
               <li className="c-services__item">
-                  <h3>UX Research</h3>
-                  <p>It&rsquo;s important to research deeply for the product you want to build. We help in that by defining the user audience, working on user stories, competitive analysis and much more. </p>
+                  <h3>Vermi compost</h3>
+                  <p> Vermi compost in its literal sense means worm farming. Vermicompost not only helps in enhancement of waste management but also replenish the soil for later usage for agriculture as well. It is  a very cost efficient method and can be built over little space and time as well .</p>
               </li>
         </ul>
     </section>
@@ -193,10 +193,10 @@ const [mappedPosts, setMappedPosts] = useState([]);
               <span>Ethnic</span>
             </div>
             <div className="title-product">
-              <h3>My face not my heart</h3>
+              <h3>OWC </h3>
             </div>
             <div className="description-prod">
-              <p>Description Product tell me how to change playlist height size like 600px in html5 player. player good work now check this link</p>
+              <p>The Onsite Waste Composter(OWC) helps in coverting the wet waste without any mess and hassle. The uniquely designed composter turn wet waste into valuable compost by controlling the temp rather than the other models which burns the wet waste into ash.</p>
             </div>
             <div className="card-footer">
               <div className="wcf-left"><span className="price">Rs 500.00</span></div>
@@ -213,10 +213,10 @@ const [mappedPosts, setMappedPosts] = useState([]);
               <span>Introvert</span>
             </div>
             <div className="title-product">
-              <h3>My face not my heart</h3>
+              <h3>Turner</h3>
             </div>
             <div className="description-prod">
-              <p>Description Product tell me how to change playlist height size like 600px in html5 player. player good work now check this link</p>
+              <p>The Composter turner is designed operator friendly with high mixing power to provide sufficient aeration as well maintain the temp(mixing help in temperature control)  to wet waste heap. </p>
             </div>
             <div className="card-footer">
               <div className="wcf-left"><span className="price">Rs 500.00</span></div>
@@ -233,10 +233,10 @@ const [mappedPosts, setMappedPosts] = useState([]);
               <span>Beauty</span>
             </div>
             <div className="title-product">
-              <h3>My face not my heart</h3>
+              <h3>Biolave</h3>
             </div>
             <div className="description-prod">
-              <p>Description Product tell me how to change playlist height size like 600px in html5 player. player good work now check this link</p>
+              <p>Eco-friendly formulated toilet cleaner that cleans your toilet sheets naturally and less harmful when flushed down. Biolave contains no preservative, artificial colour artificial perfume. Its natural smell is sweet fruit like.</p>
             </div>
             <div className="card-footer">
               <div className="wcf-left"><span className="price">Rs 500.00</span></div>
@@ -253,10 +253,10 @@ const [mappedPosts, setMappedPosts] = useState([]);
               <span>Drama</span>
             </div>
             <div className="title-product">
-              <h3>My face not my heart cvf ggf gfg g</h3>
+              <h3>Trommels</h3>
             </div>
             <div className="description-prod">
-              <p>Description Product tell me how to change playlist height size like 600px in html5 player. player good work now check this link</p>
+              <p>The specially designed trommels which are perfect for both wet and dry waste to  fit in the SWM plant  help in efficient separation of waste. The cost effective, easy to operate machine driving towards the aim of attaining the zero waste plants.</p>
             </div>
             <div className="card-footer">
               <div className="wcf-left"><span className="price">Rs 500.00</span></div>
@@ -277,10 +277,10 @@ const [mappedPosts, setMappedPosts] = useState([]);
               <span>Ethnic</span>
             </div>
             <div className="title-product">
-              <h3>My face not my heart</h3>
+              <h3>Home composter </h3>
             </div>
             <div className="description-prod">
-              <p>Description Product tell me how to change playlist height size like 600px in html5 player. player good work now check this link</p>
+              <p>Onsource  wet waste processing at household level requires a easy to operate composter with small space installation and process wet waste into valuable compost heap. The composter set comes with a pair of gloves, cocopeat, a small set of garden tool to start your composting right away.</p>
             </div>
             <div className="card-footer">
               <div className="wcf-left"><span className="price">Rs 500.00</span></div>
@@ -291,20 +291,20 @@ const [mappedPosts, setMappedPosts] = useState([]);
       </div>
       <div className="col-md-4">
         <div className="wsk-cp-product">
-          <div className="wsk-cp-img"><img src="https://wallpapers.oceanofwallpapers.com/wallpapers/previews/wallpaper-lmgg9l-964453-Preview.webp" alt="Product" className="img-responsive" /></div>
+          <div className="wsk-cp-img"><img src="https://m.media-amazon.com/images/I/61C+fGcWjpL._SL1200_.jpg"  style={{height:600}}  alt="Product" className="img-responsive" /></div>
           <div className="wsk-cp-text">
             <div className="category">
-              <span>Introvert</span>
+              <span>Accessory</span>
             </div>
             <div className="title-product">
-              <h3>My face not my heart</h3>
+              <h3>Tooth Brush </h3>
             </div>
             <div className="description-prod">
-              <p>Description Product tell me how to change playlist height size like 600px in html5 player. player good work now check this link</p>
+              <p>Bamboo tooth brush is consumable product that is made out bamboo and eco-friendly. The soft bristles provide complete oral hygiene. The round body design of the brush make it easy to hold. Bamboo toothbrush comes in 5 variants with adult and kid section.</p>
             </div>
             <div className="card-footer">
-              <div className="wcf-left"><span className="price">Rs 500.00</span></div>
-              <div className="wcf-right"><a href="#" className="buy-btn"><i className="bi bi-cart"></i></a></div>
+              <div className="wcf-left"><span className="price">Rs 199.00</span></div>
+              <div className="wcf-right"><a href="https://www.amazon.in/dp/B08GS1R3PJ?_encoding=UTF8&psc=1&ref_=cm_sw_r_cp_ud_dp_RC10HGWZXNJK6MTVB3TB" className="buy-btn"><i className="bi bi-cart"></i></a></div>
             </div>
           </div>
         </div>
@@ -317,10 +317,10 @@ const [mappedPosts, setMappedPosts] = useState([]);
               <span>Beauty</span>
             </div>
             <div className="title-product">
-              <h3>My face not my heart</h3>
+              <h3>Air Quality monitoring system </h3>
             </div>
             <div className="description-prod">
-              <p>Description Product tell me how to change playlist height size like 600px in html5 player. player good work now check this link</p>
+              <p>NCAP schemes allows the cities to install Air Quality Monitoring Systems to monitor the air quality and display it at public places. The low cost reliable AQMS comes with high quality digital display.</p>
             </div>
             <div className="card-footer">
               <div className="wcf-left"><span className="price">Rs 500.00</span></div>

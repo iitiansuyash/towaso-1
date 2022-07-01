@@ -16,7 +16,7 @@ const PostCard = (props) => {
           <p  className="card-text blockquote">
             {post.excerpt}
           </p>
-          <a href={slug} className="btn btn-primary btn-lg">
+          <a href={slug} className="btn btn-success btn-lg">
             Read More
           </a>
         </div>

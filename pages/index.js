@@ -291,7 +291,7 @@ const [mappedPosts, setMappedPosts] = useState([]);
       </div>
       <div className="col-md-4">
         <div className="wsk-cp-product">
-          <div className="wsk-cp-img"><img src="https://m.media-amazon.com/images/I/61C+fGcWjpL._SL1200_.jpg"  style={{height:600}}  alt="Product" className="img-responsive" /></div>
+          <div className="wsk-cp-img"><img src="https://m.media-amazon.com/images/I/61C+fGcWjpL._SL1200_.jpg"  style={{height:510}}  alt="Product" className="img-responsive" /></div>
           <div className="wsk-cp-text">
             <div className="category">
               <span>Accessory</span>
@@ -366,8 +366,8 @@ const [mappedPosts, setMappedPosts] = useState([]);
         <div className="row justify-content-center">
         <div className="col-xl-8 col-lg-8 text-center">
             <div className="section-title">
-                <h4 className="h1"> <strong>Testimonials </strong> </h4>
-                <h2 className="display-1">Testimonials Section</h2>
+                <h4 className="h1"> <strong>Clients </strong> </h4>
+                <h2 className="display-1">Client Details</h2>
                 </div>
             </div>
         </div>
@@ -380,7 +380,7 @@ const [mappedPosts, setMappedPosts] = useState([]);
           </div>
           <div className={styles.slider_buttons}>
             <button onClick={() => handleClickPrev()}>
-            <Image src="/icon-prev.svg" width="12px" height="32px"/>
+            <Image src="/icon-prev.svg" width="11px" height="32px"/>
               {/* <IconPrev /> */}
             </button>
             <button onClick={() => handleClickNext()}>

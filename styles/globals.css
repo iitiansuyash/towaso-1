@@ -341,7 +341,7 @@ body {
     --color-brand-primary-h: 251;
     --color-brand-primary-s: 43%;
     --color-brand-primary-l: rgba(39, 166, 183, 0.83);
-    --color-brand-accent: rgba(39, 85, 183, 0.888);
+    --color-brand-accent: #5cb85c;
     --color-brand-accent-h: 16;
     --color-brand-accent-s: 96%;
     --color-brand-accent-l: 61%;
@@ -506,7 +506,7 @@ ul li:before {
 }
 
 .c-section span:after {
-    content: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae accusamus eaque necessitatibus modi facilis aspernatur ut natus saepe!";
+    content: "We are providing consultancy for Air, Noise and Water pollution, and IT solutions for Door to Door garbage collection . Further we will extend our services to Life Cycle Assesment.";
     display: block;
     font-size: 1.4rem;
     position: absolute;
@@ -838,7 +838,7 @@ section2 h1 {
 
 .fill::after {
   content: "";
-  background-color: rgb(67, 119, 231);
+  background-color: #5cb85c;
   width: 100%;
   z-index: -1;
   position: absolute;
@@ -861,7 +861,7 @@ section2 h1 {
 
 .shell {
     padding: 80px 0;
-    background: #b4bdc534;
+    /* background: #cfe9cf6a; */
   }
   .wsk-cp-product {
     background: #fff;
@@ -1669,7 +1669,7 @@ button.btn:hover{
 
 .faq {
     padding: 60px 0 50px;
-    background: #f7fbff;
+    /* background: #f7fbff; */
     min-height: 80vh;
   }
   

@@ -291,7 +291,7 @@ const [mappedPosts, setMappedPosts] = useState([]);
       </div>
       <div className="col-md-4">
         <div className="wsk-cp-product">
-          <div className="wsk-cp-img"><img src="https://m.media-amazon.com/images/I/61C+fGcWjpL._SL1200_.jpg"  style={{height:510}}  alt="Product" className="img-responsive" /></div>
+          <div className="wsk-cp-img"><img src="https://i.imgur.com/NVUivuK.png"   alt="Product" className="img-responsive" /></div>
           <div className="wsk-cp-text">
             <div className="category">
               <span>Accessory</span>

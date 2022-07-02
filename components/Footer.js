@@ -59,7 +59,7 @@ const Footer = () => {
                             <i className="far fa-envelope"></i>
                             <h4 className="d-inline-block">EMAIL :
                                 <br/>
-                                <span>@towaso.com</span></h4>
+                                <span>info@towaso.com</span></h4>
                         </div>
                         
                         <div className="info">

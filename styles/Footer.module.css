@@ -12,7 +12,7 @@ list-style: none;
     }
 /* main footer css */
 #primaryFooter{
-	background-color: #edf7fa;
+	background-color: rgba(87, 204, 85, 0.767);
 	}
 
 	.footerWidgetArea{
@@ -78,7 +78,7 @@ list-style: none;
 /* footer credit css */
 
 .copyrightArea{
-	background-color: #edf7fa;
+	/* background-color: 108d4476; */
 	padding: 20px 0;
     }
 

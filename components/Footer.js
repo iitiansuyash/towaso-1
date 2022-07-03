@@ -133,9 +133,9 @@ const Footer = () => {
 					<h4>Quick Links</h4>
 				</div>
 				<ul className={styles.linkediting}>
-                        <li><Link href="/contact"><a ><img src="/ar.webp" className={styles.fa} />Contact Us</a></Link></li>
+                        <li><Link href="/about"><a><img src="/ar.webp" className={styles.fa} />About</a></Link></li>
                         <li><Link href="/team"><a ><img src="/ar.webp" className={styles.fa} />Our Team</a></Link></li>
-                        <li><Link href="/"><a><img src="/ar.webp" className={styles.fa} />Web Development Team</a></Link></li>
+                        <li><Link href="#contact"><a ><img src="/ar.webp" className={styles.fa} />Contact Us</a></Link></li>
 	                  </ul>
 			</div>
 		</div>

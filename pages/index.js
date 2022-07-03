@@ -391,7 +391,10 @@ const [mappedPosts, setMappedPosts] = useState([]);
         </div>
         <div className={styles.testimonial}>
           <p className={styles.testimonial_content}>
-            “ {`${data[index].testimonial}`} ”
+            {`${data[index].testimonial}`} <br/>
+            {`${data[index].testimonial2}`} <br/>
+            {`${data[index].testimonial3}`} <br/>
+            {`${data[index].testimonial4}`}
           </p>
           <div className={styles.testimonial_author}>
             <p className={styles.testimonial_author_name}>{`${data[index].name}`}</p>
@@ -425,22 +428,22 @@ const [mappedPosts, setMappedPosts] = useState([]);
                             <div className="col-xl-6 col-lg-6">
                             <main2>
                                 <details open>
-                                    <summary>What Is Web Design?</summary>
+                                    <summary>What should i compost?</summary>
                                     <div className="faq__content">
-                                    <p>Web design encompasses many different skills and disciplines in the production and maintenance of websites.</p>
+                                    <p>There are lots of good reasons to compost. Save money, save resources, improve your soil and reduce your impact on the environment. Regardless of your reasons, composting is a win/win scenario. Good for you and good for the environment.Adding compost fertilizer to your garden will not only fertilize, it actually feeds your soil with a diversity of nutrients and microorganisms that will improve plant growth.</p>
                                     </div>
                                 </details>
 
                                     <details>
-                                    <summary>What Is Graphic Design?</summary>
+                                    <summary>What type of waste can i give for compost?</summary>
                                     <div className="faq__content">
-                                    <p>Graphic design is the process of visual communication and problem-solving through the use of typography, photography, iconography and illustration. </p>
+                                    <p>Almost any organic material is suitable for composting.you can give your kitchen waste,grass clippings, garden refuses and fruit & veggie scrap also. These things are waste for you and nature if not handled properly, but here in ToWaSo we use such materials to make useful products again for society. So help us to achieve a clean India goal by submitting your waste to us.</p>
                                     </div>
                                 </details>
                                 <details>
-                                    <summary>What Is JavaScript?</summary>
+                                    <summary>How much time do I need to give in this activity?</summary>
                                     <div className="faq__content">
-                                    <p>JavaScript, often abbreviated as JS, is a programming language that conforms to the ECMAScript specification. </p>
+                                    <p>You need to spend only 5 minutes daily to manage your organic waste. If you get your segregation containers sorted out – it’s just a task of submitting the waste to our waste collector vehicles which is available near to your home.We'll also remind you when the vehicle is near by of your home using our tracking app.</p>
                                     </div>
                                 </details>
                                 </main2>
@@ -450,22 +453,22 @@ const [mappedPosts, setMappedPosts] = useState([]);
                             <div className="col-xl-6 col-lg-6">
                             <main2>
                                 <details open>
-                                    <summary>What Is Web Design?</summary>
+                                    <summary>What Should I Compost?</summary>
                                     <div className="faq__content">
-                                    <p>Web design encompasses many different skills and disciplines in the production and maintenance of websites.</p>
+                                    <p>There are lots of good reasons to compost. Save money, save resources, improve your soil and reduce your impact on the environment. Regardless of your reasons, composting is a win/win scenario. Good for you and good for the environment.Adding compost fertilizer to your garden will not only fertilize, it actually feeds your soil with a diversity of nutrients and microorganisms that will improve plant growth.</p>
                                     </div>
                                 </details>
 
                                     <details>
-                                    <summary>What Is Graphic Design?</summary>
+                                    <summary>What Type Of Waste Can I Give For Compost?</summary>
                                     <div className="faq__content">
-                                    <p>Graphic design is the process of visual communication and problem-solving through the use of typography, photography, iconography and illustration. </p>
+                                    <p>Almost any organic material is suitable for composting.you can give your kitchen waste,grass clippings, garden refuses and fruit & veggie scrap also. These things are waste for you and nature if not handled properly, but here in ToWaSo we use such materials to make useful products again for society. So help us to achieve a clean India goal by submitting your waste to us.</p>
                                     </div>
                                 </details>
                                 <details>
-                                    <summary>What Is JavaScript?</summary>
+                                    <summary>How Much Time Do I Need To Give In This Activity?</summary>
                                     <div className="faq__content">
-                                    <p>JavaScript, often abbreviated as JS, is a programming language that conforms to the ECMAScript specification. </p>
+                                    <p>You need to spend only 5 minutes daily to manage your organic waste. If you get your segregation containers sorted out – it’s just a task of submitting the waste to our waste collector vehicles which is available near to your home.We'll also remind you when the vehicle is near by of your home using our tracking app. </p>
                                     </div>
                                 </details>
                                 </main2>

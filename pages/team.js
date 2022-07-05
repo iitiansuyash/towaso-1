@@ -15,7 +15,7 @@ const Team = () => {
                 />
                 <link rel="icon" href="/favicon.ico"/>
             </Head>
-            <div>
+            {/* <div>
                 <div className={styles.bgWrap}>
                 </div>
                 <div className={styles.typeBox}>
@@ -28,7 +28,7 @@ const Team = () => {
                                 </div>
                             </div>
                         </div>
-            </div>
+            </div> */}
 
         <section className="speakers-section">
         <div className="parallax-scene parallax-scene-2 anim-icons">
@@ -38,13 +38,13 @@ const Team = () => {
 
         <div className="container">
             <div className="sec-title light text-center">
-                <h2 className="display-1 ">Team</h2>
+                <h2 className="display-1 ">Meet Our Founders</h2>
                 {/* <h2 className="display-1">Our Team</h2> */}
             </div>
 
-            <div className="row">
+            <div className="row justify-content-center">
           
-                <div className="speaker-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp">
+                <div className="speaker-block col-lg-3 col-md-6 col-sm-12 wow fadeInUp">
                     <div className="inner-box">
                         <div className="image-box">
                             <figure className="image"><img src="https://lh3.googleusercontent.com/pw/AM-JKLVoXnVk7DX8yTEHzowFq-lb8FFo3Mz8D8hMG4QzBZIGfabrBwI7i7VRAbN0nON8_5ENMjK2yLn5FXEkqEPdnHK3_Lvgib7JPNB_enyvJ5ErZRTsPfU-I-aCfNCOAdxHxVflf5E0toNxRpYmz2ldBwgzXg=w751-h857-no?authuser=0" alt=""/>
@@ -65,10 +65,10 @@ const Team = () => {
                 </div>
 
               
-              <div className="speaker-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp">
+              <div className="speaker-block col-lg-3 col-md-6 col-sm-12 wow fadeInUp">
                     <div className="inner-box">
                         <div className="image-box">
-                            <figure className="image"><img src="https://lh3.googleusercontent.com/pw/AM-JKLWjtMRWfm4ax9H0Go7TOtNE6noggb9V3JZsfzzKCbSIoFQleOxkbIXgokLbWTnbWnl3BxL1BuPQmUEzXFLIzTnp5ZKWFieI2IaHEOoTapmtp8IFztnSEcB7dnph6U3J5tTw0WvVu4pKjWX9i1WtDYO7Mw=w751-h1001-no?authuser=0" style={{height:440}} alt=""/>
+                            <figure className="image"><img src="https://lh3.googleusercontent.com/pw/AM-JKLWjtMRWfm4ax9H0Go7TOtNE6noggb9V3JZsfzzKCbSIoFQleOxkbIXgokLbWTnbWnl3BxL1BuPQmUEzXFLIzTnp5ZKWFieI2IaHEOoTapmtp8IFztnSEcB7dnph6U3J5tTw0WvVu4pKjWX9i1WtDYO7Mw=w751-h1001-no?authuser=0" style={{height:310}} alt=""/>
                                 <div className="social-links">
                                     <ul>
                                         
@@ -84,10 +84,29 @@ const Team = () => {
                         </div>
                     </div>
                 </div>
-              <div className="speaker-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp">
+
+        </div>
+
+
+
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+
+        <div className="container">
+            <div className="sec-title light text-center">
+                <h2 className="display-1 ">Our Extended Team </h2>
+                {/* <h2 className="display-1">Our Team</h2> */}
+            </div>
+
+            <div className="row justify-content-center">
+
+              <div className="speaker-block col-lg-3 col-md-6 col-sm-12 wow fadeInUp">
                     <div className="inner-box">
                         <div className="image-box">
-                            <figure className="image"><img src="https://i.imgur.com/xLQa2gO.jpeg" style={{height:440}} alt=""/>
+                            <figure className="image"><img src="https://i.imgur.com/xLQa2gO.jpeg" style={{height:310}} alt=""/>
                                 <div className="social-links">
                                     <ul>
                                         
@@ -104,8 +123,27 @@ const Team = () => {
                     </div>
                 </div>
             
+                <div className="speaker-block col-lg-3 col-md-6 col-sm-12 wow fadeInUp">
+                    <div className="inner-box">
+                        <div className="image-box">
+                            <figure className="image"><img src="https://lh3.googleusercontent.com/pw/AM-JKLXRGOs0Z7jOkbsTOD7eh7i8zGaS048E25A5sloxf7atLDjNqKvx3WEZ3YkqxFCo7PYgwoh4OFby7t5krz3Cd7kASkgG_ve8LVw_j-6r-3noU0LUQX1V5xZ8KpY1Ge4LaHidicBx__gKD2Sm_8Uq_MWXdw=w751-h565-no?authuser=0" style={{height:310}} alt=""/>
+                                <div className="social-links">
+                                    <ul>
+                                        
+                                       <li><a href="https://www.linkedin.com/in/ikshitij22/"><span className="bi bi-linkedin"></span></a></li> 
+                                       <li><a href="mailto:meet2kshitij200@gmail.com"><span className="bi bi-envelope"></span></a></li> 
+                                    </ul>
+                                </div>
+                            </figure>
+                        </div>
+                        <div className="caption-box">
+                            <h4 className="name"><a href="#">Kshitij Raj</a></h4>
+                            <span className="designation">Product Manager Machinery</span>
+                        </div>
+                    </div>
+                </div>
            
-                <div className="speaker-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="400ms">
+                <div className="speaker-block col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="400ms">
                     <div className="inner-box">
                         <div className="image-box">
                             <figure className="image"><img src="https://i.ibb.co/JC4skS0/team-animate.jpg" alt=""/>
@@ -124,7 +162,11 @@ const Team = () => {
                         </div>
                     </div>
                 </div>
+            </div>
               
+        </div>
+
+
               
               {/* <div className="speaker-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp">
                     <div className="inner-box">
@@ -167,25 +209,6 @@ const Team = () => {
                     </div>
                 </div> */}
 
-                <div className="speaker-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp">
-                    <div className="inner-box">
-                        <div className="image-box">
-                            <figure className="image"><img src="https://lh3.googleusercontent.com/pw/AM-JKLXRGOs0Z7jOkbsTOD7eh7i8zGaS048E25A5sloxf7atLDjNqKvx3WEZ3YkqxFCo7PYgwoh4OFby7t5krz3Cd7kASkgG_ve8LVw_j-6r-3noU0LUQX1V5xZ8KpY1Ge4LaHidicBx__gKD2Sm_8Uq_MWXdw=w751-h565-no?authuser=0" style={{height:440}} alt=""/>
-                                <div className="social-links">
-                                    <ul>
-                                        
-                                       <li><a href="https://www.linkedin.com/in/ikshitij22/"><span className="bi bi-linkedin"></span></a></li> 
-                                       <li><a href="mailto:meet2kshitij200@gmail.com"><span className="bi bi-envelope"></span></a></li> 
-                                    </ul>
-                                </div>
-                            </figure>
-                        </div>
-                        <div className="caption-box">
-                            <h4 className="name"><a href="#">Kshitij Raj</a></h4>
-                            <span className="designation">Product Manager Machinery</span>
-                        </div>
-                    </div>
-                </div>
 
 
 
@@ -213,7 +236,7 @@ const Team = () => {
                     </div>
                 </div> */}
             </div>
-        </div>
+        
     </section>
         </>
      );

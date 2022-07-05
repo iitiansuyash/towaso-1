@@ -44,7 +44,7 @@ export default [
       testimonial2: '2. IEC and BCC activities',
       testimonial3: '3. SS, GFC Safaimitra Suraksha Challange, ODF+ and ODF++ documentation',
       testimonial4: '',
-      picture: 'jamshedpur-notified-area-committee-sakchi-jamshedpur-government-organisations-ichgeculil-250.webp'
+      picture: 'jnac.jpg'
     },
     {
       name: 'Jugsalai',

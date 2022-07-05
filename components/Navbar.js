@@ -23,7 +23,7 @@ const Navbar = () => {
                     <li><Link href="/#products"><a>Products</a></Link></li>
                     <li><Link href="/blog"><a>Blogs</a></Link></li>
                     <li><Link href="/team"><a>Team</a></Link></li>
-                    <li><Link href="/#contact"><a>Contact</a></Link></li>
+                    {/* <li><Link href="/#contact"><a>Contact</a></Link></li> */}
                 </ul>
             </header>
 

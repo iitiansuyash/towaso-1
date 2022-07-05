@@ -146,7 +146,7 @@ const [mappedPosts, setMappedPosts] = useState([]);
 <br/>
 <div className="container">
 <div className="section-title text-center">
-            <h4 className="h1"> <strong>Blogs </strong> </h4>
+            {/* <h4 className="h1"> <strong>Blogs </strong> </h4> */}
             <h2 className="display-1">Recent <span>Blogs</span></h2>
         </div>
         <br/>
@@ -184,7 +184,7 @@ const [mappedPosts, setMappedPosts] = useState([]);
 <div className="row justify-content-center">
     <div className="col-xl-8 col-lg-8 text-center">
         <div className="section-title">
-            <h4 className="h1"> <strong>Portfolio </strong> </h4>
+            {/* <h4 className="h1"> <strong>Portfolio </strong> </h4> */}
             <h2 className="display-1">Product <span>Portfolio</span></h2>
         </div>
     </div>
@@ -192,6 +192,8 @@ const [mappedPosts, setMappedPosts] = useState([]);
   <div className="container">
     <div className="row">
       <div className="col-md-3">
+        <div className="col-sm-10">
+
         <div className="wsk-cp-product">
           <div className="wsk-cp-img">
             <img src="https://wallpapers.oceanofwallpapers.com/wallpapers/previews/wallpaper-lmgg9l-964453-Preview.webp" alt="Product" className="img-responsive" />
@@ -212,8 +214,11 @@ const [mappedPosts, setMappedPosts] = useState([]);
             </div>
           </div>
         </div>
+        </div>
+
       </div>
       <div className="col-md-3">
+      <div className="col-sm-10">
         <div className="wsk-cp-product">
           <div className="wsk-cp-img"><img src="https://wallpapers.oceanofwallpapers.com/wallpapers/previews/wallpaper-lmgg9l-964453-Preview.webp" alt="Product" className="img-responsive" /></div>
           <div className="wsk-cp-text">
@@ -232,8 +237,12 @@ const [mappedPosts, setMappedPosts] = useState([]);
             </div>
           </div>
         </div>
+
+      </div>
       </div>
       <div className="col-md-3">
+      <div className="col-sm-10">
+
         <div className="wsk-cp-product">
           <div className="wsk-cp-img"><img src="https://wallpapers.oceanofwallpapers.com/wallpapers/previews/wallpaper-lmgg9l-964453-Preview.webp" alt="Product" className="img-responsive" /></div>
           <div className="wsk-cp-text">
@@ -252,8 +261,11 @@ const [mappedPosts, setMappedPosts] = useState([]);
             </div>
           </div>
         </div>
+        </div>
       </div>
       <div className="col-md-3">
+      <div className="col-sm-10">
+
         <div className="wsk-cp-product">
           <div className="wsk-cp-img"><img src="https://wallpapers.oceanofwallpapers.com/wallpapers/previews/wallpaper-lmgg9l-964453-Preview.webp" alt="Product" className="img-responsive" /></div>
           <div className="wsk-cp-text">
@@ -272,11 +284,14 @@ const [mappedPosts, setMappedPosts] = useState([]);
             </div>
           </div>
         </div>
+        </div>
       </div>
     </div>
     <div className="row">
       
     <div className="col-md-3">
+    <div className="col-sm-10">
+
         <div className="wsk-cp-product">
           <div className="wsk-cp-img">
             <img src="https://wallpapers.oceanofwallpapers.com/wallpapers/previews/wallpaper-lmgg9l-964453-Preview.webp" alt="Product" className="img-responsive" />
@@ -297,8 +312,10 @@ const [mappedPosts, setMappedPosts] = useState([]);
             </div>
           </div>
         </div>
+    </div>
       </div>
       <div className="col-md-3">
+      <div className="col-sm-10">
         <div className="wsk-cp-product">
           <div className="wsk-cp-img"><img src="https://i.imgur.com/NVUivuK.png"   alt="Product" className="img-responsive" /></div>
           <div className="wsk-cp-text">
@@ -317,8 +334,10 @@ const [mappedPosts, setMappedPosts] = useState([]);
             </div>
           </div>
         </div>
+        </div>
       </div>
       <div className="col-md-3">
+      <div className="col-sm-10">
         <div className="wsk-cp-product">
           <div className="wsk-cp-img"><img src="https://wallpapers.oceanofwallpapers.com/wallpapers/previews/wallpaper-lmgg9l-964453-Preview.webp" alt="Product" className="img-responsive" /></div>
           <div className="wsk-cp-text">
@@ -337,7 +356,10 @@ const [mappedPosts, setMappedPosts] = useState([]);
             </div>
           </div>
         </div>
+        </div>
       </div>
+
+      
       {/* <div className="col-md-4 offset-md-7">
         <div className="wsk-cp-product">
           <div className="wsk-cp-img"><img src="https://3.bp.blogspot.com/-iUes8qr4uC8/WVSvl6Wf_fI/AAAAAAAAAKs/JiTUUVvdbqEC_QGGaQhuVJiezIN3LIqEgCPcBGAYYCw/s1600/IMG_5367-bp.jpg" alt="Product" className="img-responsive" /></div>
@@ -360,11 +382,7 @@ const [mappedPosts, setMappedPosts] = useState([]);
       </div> */}
     </div>
   </div>
-    <div className="text-center">
-          <a href="/#products">
-            <button type="button"  className="fill"> <strong>More Products.</strong> </button>
-          </a> 
-     </div>
+    
 </div>
 
 
@@ -380,8 +398,8 @@ const [mappedPosts, setMappedPosts] = useState([]);
         <div className="row justify-content-center">
         <div className="col-xl-8 col-lg-8 text-center">
             <div className="section-title">
-                <h4 className="h1"> <strong>Clients </strong> </h4>
-                <h2 className="display-1">Client Details</h2>
+                {/* <h4 className="h1"> <strong>Clients </strong> </h4> */}
+                <h2 className="display-1">Our Clients</h2>
                 </div>
             </div>
         </div>
@@ -405,6 +423,7 @@ const [mappedPosts, setMappedPosts] = useState([]);
         </div>
         <div className={styles.testimonial}>
           <p className={styles.testimonial_content}>
+          <strong> {`${data[index].testimonial0}`} <br/> </strong>
             {`${data[index].testimonial}`} <br/>
             {`${data[index].testimonial2}`} <br/>
             {`${data[index].testimonial3}`} <br/>
@@ -429,7 +448,7 @@ const [mappedPosts, setMappedPosts] = useState([]);
             <div className="row justify-content-center">
                 <div className="col-xl-8 col-lg-8 text-center">
                     <div className="section-title">
-                        <h4><strong>FAQ's</strong></h4>
+                        {/* <h4><strong>FAQ's</strong></h4> */}
                         <h2 className="display-1">Frequently Asked <span>Questions</span></h2>
                     </div>
                 </div>

@@ -1353,7 +1353,7 @@ section2 h1 {
 
 .sec-title{
     position:relative;
-    margin-bottom:60px;
+    /* margin-bottom:10px; */
 }
 
 .sec-title .title{
@@ -1398,9 +1398,9 @@ section2 h1 {
 
 .sec-title.light h2{
     color: #000;
-    font-family: Verdana, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     text-transform: uppercase;
-    font-weight: 900;
+    font-weight: 300;
 }
 
 .sec-title.light h2:after{
@@ -1600,6 +1600,7 @@ section2 h1 {
 }
 
 .contact .heading h2 {
+  font-family: 'Times New Roman', Times, serif;
     font-size: 30px;
     font-weight: 700;
     margin: 0;
@@ -1681,7 +1682,9 @@ button.btn:hover{
 
 
 /*-------------------------FAQ----------------------------*/
-
+.section-title{
+  font-family: 'Times New Roman', Times, serif;
+}
 
 .faq {
     padding: 60px 0 50px;

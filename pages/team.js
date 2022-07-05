@@ -19,8 +19,14 @@ const Team = () => {
                 <div className={styles.bgWrap}>
                 </div>
                 <div className={styles.typeBox}>
-                            {/* <h1>Team.</h1> */}
-                            {/* <h4>Join our community to make this world a better place</h4> */}
+                            <h1>Team.</h1>
+                            <h4>Join our community to make this world a better place</h4>
+                            <div className="scroll-downs">
+                                <div className="mousey">
+                                    
+                                    <div className="scroller"></div>
+                                </div>
+                            </div>
                         </div>
             </div>
 
@@ -120,7 +126,7 @@ const Team = () => {
                 </div>
               
               
-              <div className="speaker-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp">
+              {/* <div className="speaker-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp">
                     <div className="inner-box">
                         <div className="image-box">
                             <figure className="image"><img src="https://i.imgur.com/qALUivO.jpeg" style={{height:440}}  alt=""/>
@@ -138,10 +144,10 @@ const Team = () => {
                             <span className="designation">Project Co-ordinator</span>
                         </div>
                     </div>
-                </div>
+                </div> */}
 
 
-                <div className="speaker-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp">
+                {/* <div className="speaker-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp">
                     <div className="inner-box">
                         <div className="image-box">
                             <figure className="image"><img src="https://lh3.googleusercontent.com/pw/AM-JKLV2OsKoZiSTrkuc3mDVWqKaYGBFKd3eHTcv6oMT5Vbsdyymff3pFADLF38qXops9mJdVTeobzy2ScCkcT7GeSJQ4dt8U_-p-dxWuCoQRNoyC017yPpa5uidcta0Hqu5AjVkBzwoTuxOU64HYnKB9vN7hw=w751-h565-no?authuser=0"  style={{height:440}} alt=""/>
@@ -159,7 +165,7 @@ const Team = () => {
                             <span className="designation">Intern Product Development, Machinery</span>
                         </div>
                     </div>
-                </div>
+                </div> */}
 
                 <div className="speaker-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp">
                     <div className="inner-box">
@@ -187,7 +193,7 @@ const Team = () => {
 
 
          
-                <div className="speaker-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="800ms">
+                {/* <div className="speaker-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="800ms">
                     <div className="inner-box">
                         <div className="image-box">
                             <figure className="image"><img src="https://lh3.googleusercontent.com/pw/AM-JKLX1ulbmtxmN3kapp34Ym_5jgtOlSbyicYzN0FJm9VLZvC_vdo1DXZkbR9UmagKFh2fNLxZ-9NqI5S8KhKI19PVu7GsU2BQ_B5x73Cn92WB1ofzo9sp936Jqk9aExIxlDgK8-51bDaT73na7I9WCVo5XyQ=w337-h299-no?authuser=0" style={{height:440}} alt=""/>
@@ -205,7 +211,7 @@ const Team = () => {
                             <span className="designation">Project Co-ordinator</span>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
     </section>

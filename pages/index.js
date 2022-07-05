@@ -81,7 +81,15 @@ const [mappedPosts, setMappedPosts] = useState([]);
         <div className={typeBox} style={{ filter: "brightness(100%)" }}>
             <TypeWrite />
             <br />
-          <h4>Join Our Community To Make This World A Better Place.</h4>
+          <h4>Join Our Community To Make This World A Better Place</h4>
+          <Link href="/#services">
+            <div className="scroll-downs">
+                    <div className="mousey">
+                        
+                        <div className="scroller"></div>
+                    </div>
+            </div>
+          </Link>
         </div>
       </div>
  
@@ -118,7 +126,7 @@ const [mappedPosts, setMappedPosts] = useState([]);
      {/* --------------SERVICES SECTION END--------------- */}
 
      {/* ---------------PARALLAX SECTION START---------------- */}
-     <main className="mainParallax">
+     {/* <main className="mainParallax"> */}
         {/* <section2 className="no-parallax">
             <h1>Fun fact:</h1>
         </section2> */}
@@ -128,7 +136,7 @@ const [mappedPosts, setMappedPosts] = useState([]);
         {/* <section2 className="no-parallax">
             <h1>Have a nice day!</h1>
         </section2> */}
-    </main>
+    {/* </main> */}
     
       {/* ---------------PARALLAX SECTION END---------------- */}
   
@@ -172,12 +180,12 @@ const [mappedPosts, setMappedPosts] = useState([]);
       {/* ---------------PRODUCTS START---------------- */}
       
 
-<div className="shell">
+<div className="shell" id="products">
 <div className="row justify-content-center">
     <div className="col-xl-8 col-lg-8 text-center">
         <div className="section-title">
             <h4 className="h1"> <strong>Portfolio </strong> </h4>
-            <h2 className="display-1">Products <span>Section</span></h2>
+            <h2 className="display-1">Product <span>Portfolio</span></h2>
         </div>
     </div>
 </div>
@@ -267,7 +275,8 @@ const [mappedPosts, setMappedPosts] = useState([]);
       </div>
     </div>
     <div className="row">
-      <div className="col-md-4">
+      
+    <div className="col-md-3">
         <div className="wsk-cp-product">
           <div className="wsk-cp-img">
             <img src="https://wallpapers.oceanofwallpapers.com/wallpapers/previews/wallpaper-lmgg9l-964453-Preview.webp" alt="Product" className="img-responsive" />
@@ -289,7 +298,7 @@ const [mappedPosts, setMappedPosts] = useState([]);
           </div>
         </div>
       </div>
-      <div className="col-md-4">
+      <div className="col-md-3">
         <div className="wsk-cp-product">
           <div className="wsk-cp-img"><img src="https://i.imgur.com/NVUivuK.png"   alt="Product" className="img-responsive" /></div>
           <div className="wsk-cp-text">
@@ -309,7 +318,7 @@ const [mappedPosts, setMappedPosts] = useState([]);
           </div>
         </div>
       </div>
-      <div className="col-md-4">
+      <div className="col-md-3">
         <div className="wsk-cp-product">
           <div className="wsk-cp-img"><img src="https://wallpapers.oceanofwallpapers.com/wallpapers/previews/wallpaper-lmgg9l-964453-Preview.webp" alt="Product" className="img-responsive" /></div>
           <div className="wsk-cp-text">
@@ -351,6 +360,11 @@ const [mappedPosts, setMappedPosts] = useState([]);
       </div> */}
     </div>
   </div>
+    <div className="text-center">
+          <a href="/#products">
+            <button type="button"  className="fill"> <strong>More Products.</strong> </button>
+          </a> 
+     </div>
 </div>
 
 

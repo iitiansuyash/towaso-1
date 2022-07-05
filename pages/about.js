@@ -21,9 +21,18 @@ const About = () => {
                 <div className={styles.typeBox}>
                             <h1>About Us.</h1>
                             <h4>Join our community to make this world a better place</h4>
+            
+                <div className="scroll-downs">
+                    <div className="mousey">
+                        
+                        <div className="scroller"></div>
+                    </div>
+                </div>
+            
                 </div>
             </div>
-            <section>
+
+            <section id="about">
                 <div className={styles.container}>
 
                     <div className="container-fluid main-container">

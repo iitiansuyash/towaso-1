@@ -2,7 +2,7 @@
   /* padding: 5%; */
   margin: 5% 10%;
   font-size: 20px;
-  font-style: roboto;
+  font-family: Verdana, sans-serif;
 }
 
 .section {
@@ -36,6 +36,7 @@
     margin: 0;
     /* width: 100px; */
     font-size: 5rem;
+    
     line-height:7rem;
     text-align: center;
     /* padding-top: 40vh; */
@@ -69,11 +70,15 @@
     text-align: center;
     font-size: 20px;
     color:#fff;
+    font-family: Verdana, sans-serif;
+    text-transform: uppercase;
   }
   .typeBox h1{
     font-size: 60px;
     color: #fff;
     /* margin-bottom: 50px; */
+    font-family: Verdana, sans-serif;
+    text-transform: uppercase;
   }
   
   .container h1{

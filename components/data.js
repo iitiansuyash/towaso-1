@@ -29,7 +29,7 @@ export default [
       testimonial2: '',
       testimonial3: '',
       testimonial4: '',
-      picture: 'Chakulia_nagarpanchayat.png'
+      picture: 'Chakuliya.jpg'
     },
     {
       name: 'Deoghar',
@@ -69,7 +69,7 @@ export default [
       testimonial2: '2. Door to Door Garbage Collection Work Optimization',
       testimonial3: '3. Installation of Bio-gas at DC office',
       testimonial4: '4. Consultancy in making plastic road',
-      picture: 'Prabhatkhabar_2020-08_d69b317b-5680-441b-a1d8-c6539b21af70_Chas_Municipal_Corporation.webp'
+      picture: 'chass.jpg'
     },
     {
       name: 'Mango',
@@ -79,7 +79,7 @@ export default [
       testimonial2: '2. Supply of Onsite Waste Composter',
       testimonial3: '3. Supply of Air Quality Monitoring System',
       testimonial4: '4. GPS system',
-      picture: 'Prabhatkhabar_2021-06_46e14108-5050-4ff4-b909-c1929283fca7_Mango_nagar_nigam_1.webp'
+      picture: 'Prabhatkhabar_2021-06_46e14108-5050-4ff4-b909-c1929283fca7_Mango_nagar_nigam_1.jpg'
     },
     {
       name: 'Saraikela',

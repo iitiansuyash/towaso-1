@@ -37,15 +37,30 @@ const About = () => {
 
                     <div className="container-fluid main-container">
                     <div className="row justify-content-center">
-                            <div className="col-xl-8 col-lg-8 text-center">
+                            {/* <div className=""> */}
                                 <div className="section-title">
-                                    {/* <h4 className="h1"> <strong>Portfolio </strong> </h4> */}
-                                    <h2 className="display-1">About <span>Us.</span></h2>
+                                    <h2 className="display-1">Message From The Founders Desk</h2>
                                 </div>
-                            </div>
+                            {/* </div> */}
                         </div>
                         
                         <br/>
+                         
+                        <div className={styles.section }>
+                        <div className="row">
+                            <div className="col-xs-12 col-sm-2">
+                                <img src="https://i.imgur.com/tRU0Xfn.jpeg" alt="harambe face" className="img-responsive" id="harambe-face"/>
+                            </div>
+                            <div className="col-xs-12 col-sm-9">
+                                <div className="section text-justify">
+                                <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                </p>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
                         
                         <h3>Initial</h3>
                         <div className={styles.section }>

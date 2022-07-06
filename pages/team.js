@@ -15,12 +15,12 @@ const Team = () => {
                 />
                 <link rel="icon" href="/favicon.ico"/>
             </Head>
-            {/* <div>
+            <div>
                 <div className={styles.bgWrap}>
                 </div>
                 <div className={styles.typeBox}>
-                            <h1>Team.</h1>
-                            <h4>Join our community to make this world a better place</h4>
+                            {/* <h1>Team.</h1> */}
+                            {/* <h4>Join our community to make this world a better place</h4> */}
                             <div className="scroll-downs">
                                 <div className="mousey">
                                     
@@ -28,7 +28,7 @@ const Team = () => {
                                 </div>
                             </div>
                         </div>
-            </div> */}
+            </div>
 
         <section className="speakers-section">
         <div className="parallax-scene parallax-scene-2 anim-icons">
@@ -44,8 +44,8 @@ const Team = () => {
 
             <div className="row justify-content-center">
           
-                <div className="speaker-block col-lg-3 col-md-6 col-sm-12 wow fadeInUp">
-                    <div className="inner-box">
+                <div className="speaker-block col-lg-3 col-md-6 col-sm-12 col-xs-3">
+                    <div className="inner-box ">
                         <div className="image-box">
                             <figure className="image"><img src="https://lh3.googleusercontent.com/pw/AM-JKLVoXnVk7DX8yTEHzowFq-lb8FFo3Mz8D8hMG4QzBZIGfabrBwI7i7VRAbN0nON8_5ENMjK2yLn5FXEkqEPdnHK3_Lvgib7JPNB_enyvJ5ErZRTsPfU-I-aCfNCOAdxHxVflf5E0toNxRpYmz2ldBwgzXg=w751-h857-no?authuser=0" alt=""/>
                                 <div className="social-links">
@@ -65,7 +65,7 @@ const Team = () => {
                 </div>
 
               
-              <div className="speaker-block col-lg-3 col-md-6 col-sm-12 wow fadeInUp">
+              <div className="speaker-block col-lg-3 col-md-6 col-sm-12 col-xs-3 speaker-block-2" style={{marginLeft: 120}}>
                     <div className="inner-box">
                         <div className="image-box">
                             <figure className="image"><img src="https://lh3.googleusercontent.com/pw/AM-JKLWjtMRWfm4ax9H0Go7TOtNE6noggb9V3JZsfzzKCbSIoFQleOxkbIXgokLbWTnbWnl3BxL1BuPQmUEzXFLIzTnp5ZKWFieI2IaHEOoTapmtp8IFztnSEcB7dnph6U3J5tTw0WvVu4pKjWX9i1WtDYO7Mw=w751-h1001-no?authuser=0" style={{height:310}} alt=""/>
@@ -97,7 +97,7 @@ const Team = () => {
 
         <div className="container">
             <div className="sec-title light text-center">
-                <h2 className="display-1 ">Our Extended Team </h2>
+                <h2 className="display-1 ">Meet Our Team Members </h2>
                 {/* <h2 className="display-1">Our Team</h2> */}
             </div>
 
@@ -123,7 +123,7 @@ const Team = () => {
                     </div>
                 </div>
             
-                <div className="speaker-block col-lg-3 col-md-6 col-sm-12 wow fadeInUp">
+                <div className="speaker-block col-lg-3 col-md-6 col-sm-12 wow fadeInUp speaker-block-3" style={{marginLeft: 50}}>
                     <div className="inner-box">
                         <div className="image-box">
                             <figure className="image"><img src="https://lh3.googleusercontent.com/pw/AM-JKLXRGOs0Z7jOkbsTOD7eh7i8zGaS048E25A5sloxf7atLDjNqKvx3WEZ3YkqxFCo7PYgwoh4OFby7t5krz3Cd7kASkgG_ve8LVw_j-6r-3noU0LUQX1V5xZ8KpY1Ge4LaHidicBx__gKD2Sm_8Uq_MWXdw=w751-h565-no?authuser=0" style={{height:310}} alt=""/>
@@ -143,7 +143,7 @@ const Team = () => {
                     </div>
                 </div>
            
-                <div className="speaker-block col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="400ms">
+                <div className="speaker-block col-lg-3 col-md-6 col-sm-12 wow fadeInUp speaker-block-3" data-wow-delay="400ms" style={{marginLeft: 50}}>
                     <div className="inner-box">
                         <div className="image-box">
                             <figure className="image"><img src="https://i.ibb.co/JC4skS0/team-animate.jpg" alt=""/>

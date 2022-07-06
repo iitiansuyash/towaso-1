@@ -185,7 +185,7 @@ const [mappedPosts, setMappedPosts] = useState([]);
     <div className="col-xl-8 col-lg-8 text-center">
         <div className="section-title">
             {/* <h4 className="h1"> <strong>Portfolio </strong> </h4> */}
-            <h2 className="display-1">Product <span>Portfolio</span></h2>
+            <h2 className="display-1"><span>Product</span> Portfolio</h2>
         </div>
     </div>
 </div>
@@ -287,7 +287,7 @@ const [mappedPosts, setMappedPosts] = useState([]);
         </div>
       </div>
     </div>
-    <div className="row">
+    {/* <div className="row">
       
     <div className="col-md-3">
     <div className="col-sm-10">
@@ -358,29 +358,13 @@ const [mappedPosts, setMappedPosts] = useState([]);
         </div>
         </div>
       </div>
+    </div> */}
 
-      
-      {/* <div className="col-md-4 offset-md-7">
-        <div className="wsk-cp-product">
-          <div className="wsk-cp-img"><img src="https://3.bp.blogspot.com/-iUes8qr4uC8/WVSvl6Wf_fI/AAAAAAAAAKs/JiTUUVvdbqEC_QGGaQhuVJiezIN3LIqEgCPcBGAYYCw/s1600/IMG_5367-bp.jpg" alt="Product" className="img-responsive" /></div>
-          <div className="wsk-cp-text">
-            <div className="category">
-              <span>Drama</span>
-            </div>
-            <div className="title-product">
-              <h3>My face not my heart cvf ggf gfg g</h3>
-            </div>
-            <div className="description-prod">
-              <p>Description Product tell me how to change playlist height size like 600px in html5 player. player good work now check this link</p>
-            </div>
-            <div className="card-footer">
-              <div className="wcf-left"><span className="price">Rs 500.00</span></div>
-              <div className="wcf-right"><a href="#" className="buy-btn"><i className="bi bi-cart"></i></a></div>
-            </div>
-          </div>
-        </div>
-      </div> */}
-    </div>
+      <div className="text-center">
+        <a href="/product">
+          <button type="button"  className="fill"> <strong>More Products.</strong> </button>
+        </a> 
+      </div>
   </div>
     
 </div>

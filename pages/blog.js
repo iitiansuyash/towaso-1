@@ -47,9 +47,9 @@ const Blog = ({ posts }) => {
         <div className={styles.typeBox}>
                     <h1>Blogs.</h1>
                     <h4>Join our community to make this world a better place</h4>
-                    <div class="containerr">
-                                <div class="fieldd">
-                                    <div class="scroll"></div>
+                    <div className="containerr">
+                                <div className="fieldd">
+                                    <div className="scroll"></div>
                                 </div>
                       </div>
               </div>

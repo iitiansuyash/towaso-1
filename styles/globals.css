@@ -1782,55 +1782,88 @@ button.btn:hover{
       margin-bottom: 5%;
     }
   }
-  
 
-  .scroll-downs {
-    position: inline-block;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    margin: auto;
-    padding-top: 150px;
+  /*-------------------------About US END----------------------------*/
+
+
+  /*-------------------------Scroll DOWNNN----------------------------*/
+
+  .containerr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+  }
   
-    width: 34px;
-    height: 55px;
+  .fieldd {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 300px;
   }
-  .mousey {
-    width: 3px;
-    padding: 10px 15px;
-    height: 35px;
-    border: 2px solid #fff;
-    border-radius: 25px;
-    opacity: 0.75;
-    box-sizing: content-box;
+  
+  .scroll {
+    width: 60px;
+    height: 60px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    position: relative;
+    animation: down 1.5s infinite;
+    -webkit-animation: down 1.5s infinite;
   }
-  .scroller {
-    width: 3px;
-    height: 10px;
-    border-radius: 25%;
-    background-color: #fff;
-    animation-name: scroll;
-    animation-duration: 2.2s;
-    animation-timing-function: cubic-bezier(0.15, 0.41, 0.69, 0.94);
-    animation-iteration-count: infinite;
+  .scroll::before {
+    content: "";
+    position: absolute;
+    top: 15px;
+    left: 18px;
+    width: 18px;
+    height: 18px;
+    border-left: 2px solid rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(255, 255, 255);
+    transform: rotate(-45deg);
+  }
+  
+  @keyframes down {
+    0% {
+      transform: translate(0);
+    }
+    20% {
+      transform: translateY(15px);
+    }
+    40% {
+      transform: translate(0);
+    }
+  }
+  @-webkit-keyframes down {
+    0% {
+      transform: translate(0);
+    }
+    20% {
+      transform: translateY(15px);
+    }
+    40% {
+      transform: translate(0);
+    }
   }
   @keyframes scroll {
     0% {
-      opacity: 0;
+      height: 40px;
     }
-    10% {
-      transform: translateY(0);
-      opacity: 1;
+    30% {
+      height: 70px;
     }
-    100% {
-      transform: translateY(15px);
-      opacity: 0;
+    60% {
+      height: 40px;
     }
   }
-  
-  @media screen and (max-width: 700px) {
-    .scroll-downs {
-      padding-top: 120px;
+  @-webkit-keyframes scroll {
+    0% {
+      height: 40px;
+    }
+    30% {
+      height: 70px;
+    }
+    60% {
+      height: 40px;
     }
   }

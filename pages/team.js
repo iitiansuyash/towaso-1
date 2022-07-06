@@ -21,10 +21,9 @@ const Team = () => {
                 <div className={styles.typeBox}>
                             {/* <h1>Team.</h1> */}
                             {/* <h4>Join our community to make this world a better place</h4> */}
-                            <div className="scroll-downs">
-                                <div className="mousey">
-                                    
-                                    <div className="scroller"></div>
+                            <div class="containerr">
+                                <div class="fieldd">
+                                    <div class="scroll"></div>
                                 </div>
                             </div>
                         </div>

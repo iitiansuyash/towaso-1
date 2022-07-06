@@ -83,12 +83,11 @@ const [mappedPosts, setMappedPosts] = useState([]);
             <br />
           <h4>Join Our Community To Make This World A Better Place</h4>
           <Link href="/#services">
-            <div className="scroll-downs">
-                    <div className="mousey">
-                        
-                        <div className="scroller"></div>
+                    <div class="containerr">
+                                <div class="fieldd">
+                                    <div class="scroll"></div>
+                                </div>
                     </div>
-            </div>
           </Link>
         </div>
       </div>

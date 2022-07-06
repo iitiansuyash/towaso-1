@@ -29,7 +29,7 @@ export default [
       testimonial2: '',
       testimonial3: '',
       testimonial4: '',
-      picture: 'Chakuliya.jpg'
+      picture: 'chakuliya.jpg'
     },
     {
       name: 'Deoghar',

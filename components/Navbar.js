@@ -13,7 +13,7 @@ const Navbar = () => {
         <> 
         <header className="header">
         	<div className="logo">
-            <Link href="/"><a><Image src="/logo.png" width="250" height="75"/></a></Link>
+            <Link href="/"><a><Image src="/logo.png" width="200" height="70"/></a></Link>
             </div>
             <input className="menu-btn" type="checkbox" id="menu-btn"/>
             <label className="menu-icon" htmlFor="menu-btn"><span className="navicon"></span></label>		
